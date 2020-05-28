@@ -6,8 +6,26 @@
 	</head>
 
 	<body>
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
+
+		<p>Click the button to see a message</p>
+		<p id = 'demo'></p>
+
+        <h1>
+			<button onclick = "document.getElementById('demo').innerHTML = Date()">
+			My Schedule
+			</button>
+
+			<button type = "button"
+			onclick = "document.getElementById('demo').innerHTML = 'hey'">
+			Grade Distribution
+			</button>
+
+			<button type = "button"
+			onclick = "document.getElementById('demo').innerHTML = 'hey'">
+			Click me!
+			</button>
+		</h1>
+
 	</body>
 
 </html>
