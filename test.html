@@ -2,29 +2,49 @@
 <html>
 
 <head>
-<title>Page Title</title>
+<title>Plus Plus</title>
+<script src="popup_script.js"></script>
+<style>
+body {
+  background-color:whitesmoke;
+  width: 375px;
+  height: 400px;
+  text-align: center;
+}
+h1 {
+  color:peru;
+  text-decoration-color: gray;
+  font-family: verdana;
+  font-size: 20px;
+}
+p {
+  font-family: verdana;
+  font-size: 50px;
+}
+.button {
+  background-color: peru;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
 </head>
+
 <body>
+  <h1>Quick Links</h1>
+  <a href="https://registrar.utexas.edu/schedules" target="_blank"><font size="-1">Course Schedule</font></a> 
+  <a href="https://utdirect.utexas.edu/registrar/ris.WBX" target="_blank"><font size="-1">Registration Information Sheet</font></a>
+  <a href="https://utdirect.utexas.edu/apps/registrar/ut_planner/" target="_blank"><font size="-1">UT Planner</font></a>
 
-  <p id = 'demo'></p>
-
-  <h1>
-  <button onclick = "document.getElementById('demo').innerHTML = 'hello'">
-  My Schedule
-  </button>
-
-  <button type = "button"
-  onclick = "document.getElementById('demo').innerHTML = 'hey'">
-  Grade Distribution
-  </button>
-
-  <button type = "button"
-  onclick = "document.getElementById('demo').innerHTML = 'sup'">
-  Teacher info
-  </button>
-  </h1>
-
-  <p>Options!!!</p>
+  <p>
+  <a href="calendar.html" class="button" target="_blank">Full Schedule</a>
+  </p>
 
 </body>
 </html>
