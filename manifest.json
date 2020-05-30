@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "UT Registration Plus Plus",
-	"description": "TBD",
+	"description": "To Be Determined.",
 	"version": "1.0",
 
 	"browser_action": {
