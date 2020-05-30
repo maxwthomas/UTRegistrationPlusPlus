@@ -3,14 +3,19 @@
 
 <head>
 <title>Plus Plus</title>
-<script src ="popup_script.js"></script>
 </head>
 
 <body>
   <h1>Quick Links
-  <button id="button1">Course Schedule</button>
-  <button id="button2">Registration Information Sheet</button>
-  <button id="button3">UT Planner</button>
+  <button onclick="Open()">Course Schedule</button>
+  <button onclick="Open()">Registration Information Sheet</button>
+  <button onclick="Open()">UT Planner</button>
   </h1>
+
+  <script>
+    function Open() {
+      window.open("https://registrar.utexas.edu/schedules","_blank");
+    }
+  </script>
 </body>
 </html>
