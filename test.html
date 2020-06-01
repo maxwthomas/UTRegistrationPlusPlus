@@ -6,44 +6,51 @@
 <script src="popup_script.js"></script>
 <style>
 body {
-  background-color:whitesmoke;
+  background-color:white;
   width: 375px;
   height: 400px;
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
   color:peru;
-  text-decoration-color: gray;
-  font-family: verdana;
   font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px grey;
 }
 p {
-  font-family: verdana;
-  font-size: 50px;
+  font-size: 20px;
 }
 .button {
   background-color: peru;
   border: none;
   color: white;
-  padding: 10px 24px;
-  text-align: center;
+  padding: 8px 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
+}
+div.fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 110px;
 }
 </style>
 </head>
 
 <body>
-  <h1>Quick Links</h1>
-  <a href="https://registrar.utexas.edu/schedules" target="_blank"><font size="-1">Course Schedule</font></a> 
-  <a href="https://utdirect.utexas.edu/registrar/ris.WBX" target="_blank"><font size="-1">Registration Information Sheet</font></a>
+  <h1>Quick Links
+  <br><a href="https://registrar.utexas.edu/schedules" target="_blank"><font size="-1">Course Schedule</font></a> 
+  <a href="https://utdirect.utexas.edu/registrar/ris.WBX" target="_blank"><font size="-1">RIS</font></a>
   <a href="https://utdirect.utexas.edu/apps/registrar/ut_planner/" target="_blank"><font size="-1">UT Planner</font></a>
+  </h1>
 
-  <p>
-  <a href="calendar.html" class="button" target="_blank">Full Schedule</a>
+  <p><div class="fixed">
+  <a href="calendar.html" class="button" target="_blank">Full Schedule</a></div>
   </p>
 
 </body>
