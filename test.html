@@ -3,7 +3,8 @@
 
 <head>
 <title>Plus Plus</title>
-<script src="popup_script.js"></script>
+</head>
+
 <style>
 body {
   background-color:white;
@@ -24,7 +25,7 @@ p {
 }
 .button {
   background-color: peru;
-  border:none;
+  border: 2px solid peru;
   color: white;
   padding: 8px 20px;
   text-decoration: none;
@@ -44,8 +45,22 @@ div.fixed {
   bottom: 10px;
   left: 110px;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.btn {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:darkgrey;
+}
 </style>
-</head>
 
 <body>
   <h1>Quick Links
@@ -58,5 +73,9 @@ div.fixed {
   <a href="calendar.html" class="button" target="_blank">Full Schedule</a></div>
   </p>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <button id="myButton" class="btn"><i class="fa fa-moon-o"></i></button>
+
+  <script src="popup_script.js"></script>
 </body>
 </html>
