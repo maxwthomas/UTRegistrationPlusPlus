@@ -4,8 +4,10 @@ function darkMode(){
   element.classList.toggle("dark-mode");
 }
 
-$(document).ready(function() {
-  $("#moon").click(function() {
-      darkMode();
-  });
+$("#moon").click(function() {
+    darkMode();
+});
+
+$('#moon').click(function() {
+  $("i", this).toggleClass("fa-moon-o fa-sun-o");
 });
