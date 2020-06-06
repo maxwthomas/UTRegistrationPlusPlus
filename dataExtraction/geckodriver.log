@@ -1,0 +1,228 @@
+1591411924237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6Tn2FJ"
+1591411924672	Marionette	INFO	Enabled via --marionette
+
+(firefox:3020): LIBDBUSMENU-GLIB-WARNING **: 21:52:05.342: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591411926054	Marionette	INFO	Listening on port 60730
+1591411926120	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412506600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHv4iG7"
+1591412507128	Marionette	INFO	Enabled via --marionette
+
+(firefox:3235): LIBDBUSMENU-GLIB-WARNING **: 22:01:47.799: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412508404	Marionette	INFO	Listening on port 61095
+1591412508438	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412653064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUzIWov"
+1591412653590	Marionette	INFO	Enabled via --marionette
+
+(firefox:3435): LIBDBUSMENU-GLIB-WARNING **: 22:04:14.254: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412654868	Marionette	INFO	Listening on port 61234
+1591412654912	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412681771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC41Pob"
+1591412682304	Marionette	INFO	Enabled via --marionette
+
+(firefox:3637): LIBDBUSMENU-GLIB-WARNING **: 22:04:42.952: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412683596	Marionette	INFO	Listening on port 61292
+1591412683702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591412835227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIhyMkC"
+1591412835764	Marionette	INFO	Enabled via --marionette
+
+(firefox:3850): LIBDBUSMENU-GLIB-WARNING **: 22:07:16.432: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412837074	Marionette	INFO	Listening on port 61412
+1591412837156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412849815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8vIELL"
+1591412850348	Marionette	INFO	Enabled via --marionette
+
+(firefox:4053): LIBDBUSMENU-GLIB-WARNING **: 22:07:31.072: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412851694	Marionette	INFO	Listening on port 61474
+1591412851744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591413103434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNr6z3f"
+1591413103964	Marionette	INFO	Enabled via --marionette
+
+(firefox:4259): LIBDBUSMENU-GLIB-WARNING **: 22:11:44.629: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413105242	Marionette	INFO	Listening on port 61650
+1591413105288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591413444640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenTw6Sa"
+1591413445236	Marionette	INFO	Enabled via --marionette
+
+(firefox:4459): LIBDBUSMENU-GLIB-WARNING **: 22:17:25.930: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413446594	Marionette	INFO	Listening on port 61890
+1591413446676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591413551910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBZyOLc"
+1591413552442	Marionette	INFO	Enabled via --marionette
+
+(firefox:4675): LIBDBUSMENU-GLIB-WARNING **: 22:19:13.114: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413553834	Marionette	INFO	Listening on port 62015
+1591413553840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591413993320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexYvKir"
+1591413993844	Marionette	INFO	Enabled via --marionette
+
+(firefox:4880): LIBDBUSMENU-GLIB-WARNING **: 22:26:34.512: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413995168	Marionette	INFO	Listening on port 62374
+1591413995248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414245642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWm8Ldr"
+1591414246182	Marionette	INFO	Enabled via --marionette
+
+(firefox:5086): LIBDBUSMENU-GLIB-WARNING **: 22:30:46.867: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414247518	Marionette	INFO	Listening on port 62583
+1591414247588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414292776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTsGW0x"
+1591414293318	Marionette	INFO	Enabled via --marionette
+
+(firefox:5293): LIBDBUSMENU-GLIB-WARNING **: 22:31:33.975: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414294598	Marionette	INFO	Listening on port 62670
+1591414294616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414358183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2s5O1q"
+1591414358710	Marionette	INFO	Enabled via --marionette
+
+(firefox:5495): LIBDBUSMENU-GLIB-WARNING **: 22:32:39.364: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414359996	Marionette	INFO	Listening on port 62727
+1591414360028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414459317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerlmf7s"
+1591414459842	Marionette	INFO	Enabled via --marionette
+
+(firefox:5692): LIBDBUSMENU-GLIB-WARNING **: 22:34:20.496: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414461134	Marionette	INFO	Listening on port 62785
+1591414461148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414864389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQPFaQ2"
+1591414864910	Marionette	INFO	Enabled via --marionette
+
+(firefox:5890): LIBDBUSMENU-GLIB-WARNING **: 22:41:05.573: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414866172	Marionette	INFO	Listening on port 62859
+1591414866238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414911575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN9ayOE"
+1591414912090	Marionette	INFO	Enabled via --marionette
+
+(firefox:6093): LIBDBUSMENU-GLIB-WARNING **: 22:41:52.760: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414913368	Marionette	INFO	Listening on port 62908
+1591414913414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414980129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledVEfWu"
+1591414980656	Marionette	INFO	Enabled via --marionette
+
+(firefox:6292): LIBDBUSMENU-GLIB-WARNING **: 22:43:01.309: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414981910	Marionette	INFO	Listening on port 62961
+1591414981982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415127771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo3FVn3"
+1591415128330	Marionette	INFO	Enabled via --marionette
+
+(firefox:6493): LIBDBUSMENU-GLIB-WARNING **: 22:45:29.067: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415129702	Marionette	INFO	Listening on port 63071
+1591415129804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415226736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH2ZP57"
+1591415227260	Marionette	INFO	Enabled via --marionette
+
+(firefox:6698): LIBDBUSMENU-GLIB-WARNING **: 22:47:07.935: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415228550	Marionette	INFO	Listening on port 63148
+1591415228572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415482831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3QfPQc"
+1591415483366	Marionette	INFO	Enabled via --marionette
+
+(firefox:52): LIBDBUSMENU-GLIB-WARNING **: 22:51:24.066: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415484698	Marionette	INFO	Listening on port 63216
+1591415484758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415498346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaDUd70"
+1591415498878	Marionette	INFO	Enabled via --marionette
+
+(firefox:250): LIBDBUSMENU-GLIB-WARNING **: 22:51:39.527: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415500122	Marionette	INFO	Listening on port 63275
+1591415500186	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415520685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemcSWEF"
+1591415521220	Marionette	INFO	Enabled via --marionette
+
+(firefox:450): LIBDBUSMENU-GLIB-WARNING **: 22:52:01.874: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415522492	Marionette	INFO	Listening on port 63333
+1591415522522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591468321155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMIyl4s"
+1591468322468	Marionette	INFO	Enabled via --marionette
+
+(firefox:88): LIBDBUSMENU-GLIB-WARNING **: 13:32:03.392: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468324172	Marionette	INFO	Listening on port 65329
+1591468324208	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468853144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRoqwYn"
+1591468853730	Marionette	INFO	Enabled via --marionette
+
+(firefox:308): LIBDBUSMENU-GLIB-WARNING **: 13:40:54.432: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468855096	Marionette	INFO	Listening on port 49316
+1591468855178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468879187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5PUAI5"
+1591468879764	Marionette	INFO	Enabled via --marionette
+
+(firefox:509): LIBDBUSMENU-GLIB-WARNING **: 13:41:20.502: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468881156	Marionette	INFO	Listening on port 49383
+1591468881222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468946439	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile28a2kD"
+1591468947002	Marionette	INFO	Enabled via --marionette
+
+(firefox:712): LIBDBUSMENU-GLIB-WARNING **: 13:42:27.717: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468948434	Marionette	INFO	Listening on port 49961
+1591468948472	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591470676266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW4MTXv"
+1591470676838	Marionette	INFO	Enabled via --marionette
+
+(firefox:1174): LIBDBUSMENU-GLIB-WARNING **: 14:11:17.575: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591470678248	Marionette	INFO	Listening on port 51150
+1591470678310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
