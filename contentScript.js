@@ -1,27 +1,39 @@
 // Header
 var header = document.createElement("th");
+header.scope = "col";
 var txt = document.createTextNode("Plus Plus");
 header.appendChild(txt);
 document.getElementsByClassName("rwd-table results")[0].firstChild.nextSibling.firstChild.nextSibling.appendChild(header);
 
 // Icon
-var im;
-var but;
+var longhorn;
+var pic;
 var i;
 var info = document.getElementsByClassName("rwd-table results")[0].firstChild.nextSibling.nextSibling.nextSibling;
 var cur;
 for (i = 0; i < info.children.length; i++) {
-    im = document.createElement("BUTTON");
-    im.innerHTML = '<img src="https://i.imgur.com/bThluov.png" />';
-    im.style.cssText = "padding: 10px; display: block; max-width: 80px; margin: auto; cursor: pointer; border: none; background-color: rgb(244,244,244)";
 
+    // Attach image to longhorn button
+    longhorn = document.createElement("td");
+    longhorn.style.cssText = "color: rgb(51, 51, 51); text-decoration: none; font-weight: normal";
+    pic = document.createElement("input");
+    pic.type = "image";
+    pic.id = "ourButton";
+    pic.width = "40";
+    pic.height = "20";
+    pic.src = "https://i.imgur.com/bThluov.png";
+    longhorn.appendChild(pic);
+
+    // Append button to document
     cur = info.children[i];
-    // Closed
-    if (cur.className == "unavailable") {
-        im.style.cssText = "padding: 10px; display: block; max-width: 80px; margin: auto; cursor: pointer; border: none; background-color: rgb(204,204,204)";
-    }
-
     if (cur.firstChild.nextSibling.className != "course_header") {
-        cur.appendChild(im);
+        cur.appendChild(longhorn);
     }
+}
+
+// Event listener for click
+document.getElementById("ourButton").addEventListener("click", getOptions());
+
+// Function for options popup
+function getOptions() { 
 }
