@@ -8,5 +8,11 @@
     	"default_icon": "images/longhorn.png",
     	"default_title": "UT Registration Plus Plus",
     	"default_popup": "test.html"
-	}
+	},
+
+	"content_scripts": [{
+		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*"],
+		"css": ["contentStyle.css"],
+		"js": ["contentScript.js"]
+	}]
 }
