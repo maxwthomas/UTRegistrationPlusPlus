@@ -1,0 +1,1477 @@
+1591411924237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6Tn2FJ"
+1591411924672	Marionette	INFO	Enabled via --marionette
+
+(firefox:3020): LIBDBUSMENU-GLIB-WARNING **: 21:52:05.342: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591411926054	Marionette	INFO	Listening on port 60730
+1591411926120	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412506600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHv4iG7"
+1591412507128	Marionette	INFO	Enabled via --marionette
+
+(firefox:3235): LIBDBUSMENU-GLIB-WARNING **: 22:01:47.799: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412508404	Marionette	INFO	Listening on port 61095
+1591412508438	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412653064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUzIWov"
+1591412653590	Marionette	INFO	Enabled via --marionette
+
+(firefox:3435): LIBDBUSMENU-GLIB-WARNING **: 22:04:14.254: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412654868	Marionette	INFO	Listening on port 61234
+1591412654912	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412681771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC41Pob"
+1591412682304	Marionette	INFO	Enabled via --marionette
+
+(firefox:3637): LIBDBUSMENU-GLIB-WARNING **: 22:04:42.952: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412683596	Marionette	INFO	Listening on port 61292
+1591412683702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591412835227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIhyMkC"
+1591412835764	Marionette	INFO	Enabled via --marionette
+
+(firefox:3850): LIBDBUSMENU-GLIB-WARNING **: 22:07:16.432: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412837074	Marionette	INFO	Listening on port 61412
+1591412837156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591412849815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8vIELL"
+1591412850348	Marionette	INFO	Enabled via --marionette
+
+(firefox:4053): LIBDBUSMENU-GLIB-WARNING **: 22:07:31.072: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591412851694	Marionette	INFO	Listening on port 61474
+1591412851744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591413103434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNr6z3f"
+1591413103964	Marionette	INFO	Enabled via --marionette
+
+(firefox:4259): LIBDBUSMENU-GLIB-WARNING **: 22:11:44.629: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413105242	Marionette	INFO	Listening on port 61650
+1591413105288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591413444640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenTw6Sa"
+1591413445236	Marionette	INFO	Enabled via --marionette
+
+(firefox:4459): LIBDBUSMENU-GLIB-WARNING **: 22:17:25.930: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413446594	Marionette	INFO	Listening on port 61890
+1591413446676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591413551910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBZyOLc"
+1591413552442	Marionette	INFO	Enabled via --marionette
+
+(firefox:4675): LIBDBUSMENU-GLIB-WARNING **: 22:19:13.114: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413553834	Marionette	INFO	Listening on port 62015
+1591413553840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591413993320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexYvKir"
+1591413993844	Marionette	INFO	Enabled via --marionette
+
+(firefox:4880): LIBDBUSMENU-GLIB-WARNING **: 22:26:34.512: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591413995168	Marionette	INFO	Listening on port 62374
+1591413995248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414245642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWm8Ldr"
+1591414246182	Marionette	INFO	Enabled via --marionette
+
+(firefox:5086): LIBDBUSMENU-GLIB-WARNING **: 22:30:46.867: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414247518	Marionette	INFO	Listening on port 62583
+1591414247588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414292776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTsGW0x"
+1591414293318	Marionette	INFO	Enabled via --marionette
+
+(firefox:5293): LIBDBUSMENU-GLIB-WARNING **: 22:31:33.975: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414294598	Marionette	INFO	Listening on port 62670
+1591414294616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414358183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2s5O1q"
+1591414358710	Marionette	INFO	Enabled via --marionette
+
+(firefox:5495): LIBDBUSMENU-GLIB-WARNING **: 22:32:39.364: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414359996	Marionette	INFO	Listening on port 62727
+1591414360028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414459317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerlmf7s"
+1591414459842	Marionette	INFO	Enabled via --marionette
+
+(firefox:5692): LIBDBUSMENU-GLIB-WARNING **: 22:34:20.496: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414461134	Marionette	INFO	Listening on port 62785
+1591414461148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414864389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQPFaQ2"
+1591414864910	Marionette	INFO	Enabled via --marionette
+
+(firefox:5890): LIBDBUSMENU-GLIB-WARNING **: 22:41:05.573: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414866172	Marionette	INFO	Listening on port 62859
+1591414866238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414911575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN9ayOE"
+1591414912090	Marionette	INFO	Enabled via --marionette
+
+(firefox:6093): LIBDBUSMENU-GLIB-WARNING **: 22:41:52.760: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414913368	Marionette	INFO	Listening on port 62908
+1591414913414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591414980129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledVEfWu"
+1591414980656	Marionette	INFO	Enabled via --marionette
+
+(firefox:6292): LIBDBUSMENU-GLIB-WARNING **: 22:43:01.309: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591414981910	Marionette	INFO	Listening on port 62961
+1591414981982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415127771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo3FVn3"
+1591415128330	Marionette	INFO	Enabled via --marionette
+
+(firefox:6493): LIBDBUSMENU-GLIB-WARNING **: 22:45:29.067: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415129702	Marionette	INFO	Listening on port 63071
+1591415129804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415226736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH2ZP57"
+1591415227260	Marionette	INFO	Enabled via --marionette
+
+(firefox:6698): LIBDBUSMENU-GLIB-WARNING **: 22:47:07.935: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415228550	Marionette	INFO	Listening on port 63148
+1591415228572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415482831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3QfPQc"
+1591415483366	Marionette	INFO	Enabled via --marionette
+
+(firefox:52): LIBDBUSMENU-GLIB-WARNING **: 22:51:24.066: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415484698	Marionette	INFO	Listening on port 63216
+1591415484758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415498346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaDUd70"
+1591415498878	Marionette	INFO	Enabled via --marionette
+
+(firefox:250): LIBDBUSMENU-GLIB-WARNING **: 22:51:39.527: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415500122	Marionette	INFO	Listening on port 63275
+1591415500186	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591415520685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemcSWEF"
+1591415521220	Marionette	INFO	Enabled via --marionette
+
+(firefox:450): LIBDBUSMENU-GLIB-WARNING **: 22:52:01.874: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591415522492	Marionette	INFO	Listening on port 63333
+1591415522522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+1591468321155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMIyl4s"
+1591468322468	Marionette	INFO	Enabled via --marionette
+
+(firefox:88): LIBDBUSMENU-GLIB-WARNING **: 13:32:03.392: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468324172	Marionette	INFO	Listening on port 65329
+1591468324208	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468853144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRoqwYn"
+1591468853730	Marionette	INFO	Enabled via --marionette
+
+(firefox:308): LIBDBUSMENU-GLIB-WARNING **: 13:40:54.432: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468855096	Marionette	INFO	Listening on port 49316
+1591468855178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468879187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5PUAI5"
+1591468879764	Marionette	INFO	Enabled via --marionette
+
+(firefox:509): LIBDBUSMENU-GLIB-WARNING **: 13:41:20.502: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468881156	Marionette	INFO	Listening on port 49383
+1591468881222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591468946439	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile28a2kD"
+1591468947002	Marionette	INFO	Enabled via --marionette
+
+(firefox:712): LIBDBUSMENU-GLIB-WARNING **: 13:42:27.717: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591468948434	Marionette	INFO	Listening on port 49961
+1591468948472	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591470676266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW4MTXv"
+1591470676838	Marionette	INFO	Enabled via --marionette
+
+(firefox:1174): LIBDBUSMENU-GLIB-WARNING **: 14:11:17.575: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591470678248	Marionette	INFO	Listening on port 51150
+1591470678310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+JavaScript warning: https://utdirect.utexas.edu/utdirect/system/js/jquery-1.4.2.js, line 3686: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591492126420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNqOexP"
+1591492127068	Marionette	INFO	Enabled via --marionette
+
+(firefox:67): LIBDBUSMENU-GLIB-WARNING **: 20:08:47.848: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591492128420	Marionette	INFO	Listening on port 53769
+1591492128474	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591492154828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4cldhP"
+1591492155424	Marionette	INFO	Enabled via --marionette
+
+(firefox:276): LIBDBUSMENU-GLIB-WARNING **: 20:09:16.181: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591492156754	Marionette	INFO	Listening on port 54006
+1591492156764	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591492362754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileINLQL4"
+1591492363372	Marionette	INFO	Enabled via --marionette
+
+(firefox:1596): LIBDBUSMENU-GLIB-WARNING **: 20:12:44.121: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591492364678	Marionette	INFO	Listening on port 54354
+1591492364684	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+1591492432254	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.0: Value "dns" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["contextualIdentities"], be one of ["downloads", "downloads.open"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], or must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/]]
+1591492432356	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"CrashMonitor: Writing notifications to file after receiving profile-before-change","state":"(none)","filename":"resource://gre/modules/CrashMonitor.jsm","lineNumber":172,"stack":["resource://gre/modules/CrashMonitor.jsm:init:172","jar:file:///usr/lib/firefox/omni.ja!/components/nsCrashMonitor.js:observe:24"]}] Barrier: OS.File: Waiting for clients before profileBeforeChange
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"OS.File: flush I/O queued before profileBeforeChange","state":{"launched":true,"shutdown":false,"worker":true,"pendingReset":false,"latestSent":["Sat Jun 06 2020 20:17:09 GMT-0500 (CDT)","copy"],"latestReceived":null,"messagesSent":266,"messagesReceived":265,"messagesQueued":266,"DEBUG":false,"clients":[{"name":"CrashMonitor: Writing notifications to file after receiving profile-before-change","state":"(none)","filename":"resource://gre/modules/CrashMonitor.jsm","lineNumber":172,"stack":["resource://gre/modules/CrashMonitor.jsm:init:172","jar:file:///usr/lib/firefox/omni.ja!/components/nsCrashMonitor.js:observe:24"]}]},"filename":"resource://gre/modules/osfile/osfile_async_front.jsm","lineNumber":1473,"stack":["resource://gre/modules/osfile/osfile_async_front.jsm:setupShutdown:1473","resource://gre/modules/osfile/osfile_async_front.jsm:null:1493","resource://gre/modules/osfile.jsm:null:11","resource://gre/modules/addons/GMPProvider.jsm:null:17","resource://gre/modules/AddonManager.jsm:startup:888","resource://gre/modules/AddonManager.jsm:startup:3089","jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:observe:65"]}] Barrier: profile-before-change
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 186: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1591492635578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHbOlKW"
+1591492636184	Marionette	INFO	Enabled via --marionette
+
+(firefox:2135): LIBDBUSMENU-GLIB-WARNING **: 20:17:16.926: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591492637496	Marionette	INFO	Listening on port 54811
+1591492637518	Marionette	WARN	TLS certificate errors will be ignored for this session
+FATAL ERROR: AsyncShutdown timeout in profile-before-change Conditions: [{"name":"OS.File: flush I/O queued before profileBeforeChange","state":{"launched":true,"shutdown":false,"worker":true,"pendingReset":false,"latestSent":["Sat Jun 06 2020 20:17:09 GMT-0500 (CDT)","copy"],"latestReceived":null,"messagesSent":266,"messagesReceived":265,"messagesQueued":266,"DEBUG":false,"clients":[{"name":"CrashMonitor: Writing notifications to file after receiving profile-before-change","state":"(none)","filename":"resource://gre/modules/CrashMonitor.jsm","lineNumber":172,"stack":["resource://gre/modules/CrashMonitor.jsm:init:172","jar:file:///usr/lib/firefox/omni.ja!/components/nsCrashMonitor.js:observe:24"]}]},"filename":"resource://gre/modules/osfile/osfile_async_front.jsm","lineNumber":1473,"stack":["resource://gre/modules/osfile/osfile_async_front.jsm:setupShutdown:1473","resource://gre/modules/osfile/osfile_async_front.jsm:null:1493","resource://gre/modules/osfile.jsm:null:11","resource://gre/modules/addons/GMPProvider.jsm:null:17","resource://gre/modules/AddonManager.jsm:startup:888","resource://gre/modules/AddonManager.jsm:startup:3089","jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:observe:65"]}] At least one completion condition failed to complete within a reasonable amount of time. Causing a crash to ensure that we do not leave the user with an unresponsive process draining resources.
+[Parent 1596, Main Thread] ###!!! ABORT: file resource://gre/modules/osfile/osfile_async_front.jsm, line 1473
+[Parent 1596, Main Thread] ###!!! ABORT: file resource://gre/modules/osfile/osfile_async_front.jsm, line 1473
+ExceptionHandler::GenerateDump cloned child 2350
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591492748021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3fCQkp"
+1591492748616	Marionette	INFO	Enabled via --marionette
+
+(firefox:2433): LIBDBUSMENU-GLIB-WARNING **: 20:19:09.350: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591492749884	Marionette	INFO	Listening on port 55138
+1591492749950	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1591493180121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGtydw4"
+1591493180718	Marionette	INFO	Enabled via --marionette
+
+(firefox:2693): LIBDBUSMENU-GLIB-WARNING **: 20:26:21.491: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591493182016	Marionette	INFO	Listening on port 55832
+1591493182078	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591494338097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8tqh7A"
+1591494338708	Marionette	INFO	Enabled via --marionette
+
+(firefox:2907): LIBDBUSMENU-GLIB-WARNING **: 20:45:39.468: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591494340028	Marionette	INFO	Listening on port 56176
+1591494340130	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591494641543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevkEZgL"
+1591494642158	Marionette	INFO	Enabled via --marionette
+
+(firefox:3119): LIBDBUSMENU-GLIB-WARNING **: 20:50:42.943: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591494643542	Marionette	INFO	Listening on port 56632
+1591494643574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591496106399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejIWS7e"
+1591496107006	Marionette	INFO	Enabled via --marionette
+
+(firefox:3433): LIBDBUSMENU-GLIB-WARNING **: 21:15:07.797: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591496108372	Marionette	INFO	Listening on port 57977
+1591496108456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591496170594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNehvjc"
+1591496171190	Marionette	INFO	Enabled via --marionette
+
+(firefox:3686): LIBDBUSMENU-GLIB-WARNING **: 21:16:11.970: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591496172516	Marionette	INFO	Listening on port 58313
+1591496172534	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591566600045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledbj8sq"
+1591566601504	Marionette	INFO	Enabled via --marionette
+
+(firefox:49): LIBDBUSMENU-GLIB-WARNING **: 16:50:02.512: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591566603126	Marionette	INFO	Listening on port 62668
+1591566603196	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591567329764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIRnK9T"
+1591567330344	Marionette	INFO	Enabled via --marionette
+
+(firefox:280): LIBDBUSMENU-GLIB-WARNING **: 17:02:11.122: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591567331704	Marionette	INFO	Listening on port 63230
+1591567331800	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591567385207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0RXIu9"
+1591567385802	Marionette	INFO	Enabled via --marionette
+
+(firefox:497): LIBDBUSMENU-GLIB-WARNING **: 17:03:06.540: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591567387102	Marionette	INFO	Listening on port 63489
+1591567387154	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591567429751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFZjdPa"
+1591567430350	Marionette	INFO	Enabled via --marionette
+
+(firefox:718): LIBDBUSMENU-GLIB-WARNING **: 17:03:51.141: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591567431684	Marionette	INFO	Listening on port 63710
+1591567431778	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+console.error: 
+  Message: TypeError: node is null
+  Stack:
+    getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:268:9
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:268:9
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  Could not get the list of font families
+  Protocol error (unknownError): node is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector.js, line 1045: TypeError: this._refMap is null
+1591567699014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletSqhv6"
+1591567699672	Marionette	INFO	Enabled via --marionette
+
+(firefox:1014): LIBDBUSMENU-GLIB-WARNING **: 17:08:20.484: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591567701046	Marionette	INFO	Listening on port 64261
+1591567701154	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript error: https://da56bdb59c5a6ccd1aa743db555ba99d.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 15: ReferenceError: osdlfm is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1591568003976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile29h5AG"
+1591568004618	Marionette	INFO	Enabled via --marionette
+
+(firefox:1263): LIBDBUSMENU-GLIB-WARNING **: 17:13:25.556: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591568006172	Marionette	INFO	Listening on port 64721
+1591568006230	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591568188908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4psxdC"
+1591568189504	Marionette	INFO	Enabled via --marionette
+
+(firefox:1484): LIBDBUSMENU-GLIB-WARNING **: 17:16:30.271: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591568190826	Marionette	INFO	Listening on port 64973
+1591568190846	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591568330772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeKD4XK"
+1591568331414	Marionette	INFO	Enabled via --marionette
+
+(firefox:1731): LIBDBUSMENU-GLIB-WARNING **: 17:18:52.218: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591568332766	Marionette	INFO	Listening on port 65416
+1591568332802	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591655890938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefE0ih6"
+1591655892516	Marionette	INFO	Enabled via --marionette
+
+(firefox:80): LIBDBUSMENU-GLIB-WARNING **: 17:38:13.645: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591655894366	Marionette	INFO	Listening on port 53553
+1591655894386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=20&wt=json&json.wrf=noCB&callback=noCB&q=*%3A*+AND+schoolid_s%3A1255&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&rows=20&start=1620&fl=pk_id+teacherfirstname_t+teacherlastname_t+total_number_of_ratings_i+averageratingscore_rf+schoolid_s&fq=, line 1: TypeError: noCB is not a function
+1591655989649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerymc1R"
+1591655990326	Marionette	INFO	Enabled via --marionette
+
+(firefox:303): LIBDBUSMENU-GLIB-WARNING **: 17:39:51.200: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591655991836	Marionette	INFO	Listening on port 53970
+1591655991906	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591656234789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0R3i9v"
+1591656235428	Marionette	INFO	Enabled via --marionette
+
+(firefox:516): LIBDBUSMENU-GLIB-WARNING **: 17:43:56.210: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591656236794	Marionette	INFO	Listening on port 54420
+1591656236822	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591656324495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTrZbPI"
+1591656325162	Marionette	INFO	Enabled via --marionette
+
+(firefox:762): LIBDBUSMENU-GLIB-WARNING **: 17:45:25.996: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591656326614	Marionette	INFO	Listening on port 54763
+1591656326632	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591656939064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOhVb8w"
+1591656939682	Marionette	INFO	Enabled via --marionette
+
+(firefox:1083): LIBDBUSMENU-GLIB-WARNING **: 17:55:40.464: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591656941052	Marionette	INFO	Listening on port 55678
+1591656941114	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript error: https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=20&wt=json&json.wrf=noCB&callback=noCB&q=*%3A*+AND+schoolid_s%3A1255&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&rows=20&start=3400&fl=pk_id+teacherfirstname_t+teacherlastname_t+total_number_of_ratings_i+averageratingscore_rf+schoolid_s&fq=, line 1: TypeError: noCB is not a function
+1591657038028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSMn5bR"
+1591657038662	Marionette	INFO	Enabled via --marionette
+1591657095090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaInMsn"
+1591657095726	Marionette	INFO	Enabled via --marionette
+
+(firefox:1393): LIBDBUSMENU-GLIB-WARNING **: 17:58:16.498: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591657097052	Marionette	INFO	Listening on port 56077
+1591657097126	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript error: https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=20&wt=json&json.wrf=noCB&callback=noCB&q=*%3A*+AND+schoolid_s%3A1255&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&rows=20&start=3560&fl=pk_id+teacherfirstname_t+teacherlastname_t+total_number_of_ratings_i+averageratingscore_rf+schoolid_s&fq=, line 1: TypeError: noCB is not a function
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591657211482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej9nJI7"
+1591657212084	Marionette	INFO	Enabled via --marionette
+
+(firefox:1661): LIBDBUSMENU-GLIB-WARNING **: 18:00:12.896: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591657213482	Marionette	INFO	Listening on port 56496
+1591657213514	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591657295510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBgxVU2"
+1591657296168	Marionette	INFO	Enabled via --marionette
+
+(firefox:1905): LIBDBUSMENU-GLIB-WARNING **: 18:01:36.986: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591657297636	Marionette	INFO	Listening on port 56880
+1591657297642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=20&wt=json&json.wrf=noCB&callback=noCB&q=*%3A*+AND+schoolid_s%3A1255&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&rows=20&start=140&fl=pk_id+teacherfirstname_t+teacherlastname_t+total_number_of_ratings_i+averageratingscore_rf+schoolid_s&fq=, line 1: TypeError: noCB is not a function
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591658504787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5BLt6w"
+1591658505424	Marionette	INFO	Enabled via --marionette
+
+(firefox:2147): LIBDBUSMENU-GLIB-WARNING **: 18:21:46.280: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591658506844	Marionette	INFO	Listening on port 57326
+1591658506924	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591658784938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1Csr97"
+1591658785556	Marionette	INFO	Enabled via --marionette
+
+(firefox:2363): LIBDBUSMENU-GLIB-WARNING **: 18:26:26.381: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591658786976	Marionette	INFO	Listening on port 57575
+1591658787066	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591659059063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLRyMMv"
+1591659059688	Marionette	INFO	Enabled via --marionette
+
+(firefox:2643): LIBDBUSMENU-GLIB-WARNING **: 18:31:00.519: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659061078	Marionette	INFO	Listening on port 57937
+1591659061100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=20&wt=json&json.wrf=noCB&callback=noCB&q=*%3A*+AND+schoolid_s%3A1255&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&rows=20&start=1100&fl=pk_id+teacherfirstname_t+teacherlastname_t+total_number_of_ratings_i+averageratingscore_rf+schoolid_s&fq=, line 1: TypeError: noCB is not a function
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591659233873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenAQZa9"
+1591659234478	Marionette	INFO	Enabled via --marionette
+
+(firefox:2981): LIBDBUSMENU-GLIB-WARNING **: 18:33:55.247: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659235832	Marionette	INFO	Listening on port 58490
+1591659235902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591659259656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemUkG7I"
+1591659260286	Marionette	INFO	Enabled via --marionette
+
+(firefox:3188): LIBDBUSMENU-GLIB-WARNING **: 18:34:21.096: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659261698	Marionette	INFO	Listening on port 58558
+1591659261786	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+1591659567867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA0Chou"
+1591659568514	Marionette	INFO	Enabled via --marionette
+
+(firefox:3505): LIBDBUSMENU-GLIB-WARNING **: 18:39:29.380: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659570024	Marionette	INFO	Listening on port 58987
+1591659570100	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591659648226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC0Jid9"
+1591659648846	Marionette	INFO	Enabled via --marionette
+
+(firefox:3724): LIBDBUSMENU-GLIB-WARNING **: 18:40:49.708: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659650260	Marionette	INFO	Listening on port 59207
+1591659650360	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591659731276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiq1gfV"
+1591659731940	Marionette	INFO	Enabled via --marionette
+
+(firefox:3960): LIBDBUSMENU-GLIB-WARNING **: 18:42:12.772: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659733374	Marionette	INFO	Listening on port 59429
+1591659733424	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591659857291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1weEsh"
+1591659857932	Marionette	INFO	Enabled via --marionette
+
+(firefox:4197): LIBDBUSMENU-GLIB-WARNING **: 18:44:18.746: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659859354	Marionette	INFO	Listening on port 59869
+1591659859430	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591659948359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOd2ZfX"
+1591659948996	Marionette	INFO	Enabled via --marionette
+
+(firefox:4439): LIBDBUSMENU-GLIB-WARNING **: 18:45:49.816: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591659950356	Marionette	INFO	Listening on port 60088
+1591659950394	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591660148122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSVJ2B8"
+1591660148768	Marionette	INFO	Enabled via --marionette
+
+(firefox:4638): LIBDBUSMENU-GLIB-WARNING **: 18:49:09.640: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660150228	Marionette	INFO	Listening on port 60211
+1591660150262	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591660348235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7JfCmL"
+1591660348918	Marionette	INFO	Enabled via --marionette
+
+(firefox:4856): LIBDBUSMENU-GLIB-WARNING **: 18:52:29.755: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660350378	Marionette	INFO	Listening on port 60550
+1591660350472	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591660407121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley7TCo5"
+1591660407754	Marionette	INFO	Enabled via --marionette
+
+(firefox:5097): LIBDBUSMENU-GLIB-WARNING **: 18:53:28.574: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660409178	Marionette	INFO	Listening on port 60809
+1591660409256	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1591660421912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea12jGB"
+1591660422506	Marionette	INFO	Enabled via --marionette
+
+(firefox:5297): LIBDBUSMENU-GLIB-WARNING **: 18:53:43.289: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660423914	Marionette	INFO	Listening on port 60853
+1591660423968	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1591660586618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWkXmjU"
+1591660587242	Marionette	INFO	Enabled via --marionette
+
+(firefox:5550): LIBDBUSMENU-GLIB-WARNING **: 18:56:28.123: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660588678	Marionette	INFO	Listening on port 61225
+1591660588748	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create WebGL2 context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: 
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: 
+* Exhausted GL driver options.
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591660729933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesM4KKi"
+1591660730588	Marionette	INFO	Enabled via --marionette
+
+(firefox:5812): LIBDBUSMENU-GLIB-WARNING **: 18:58:51.383: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660732006	Marionette	INFO	Listening on port 61544
+1591660732068	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+[Parent 5812, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-ikZgcS/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 5812, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-ikZgcS/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 5812, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-ikZgcS/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1591660855267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepWGF63"
+1591660855942	Marionette	INFO	Enabled via --marionette
+
+(firefox:6069): LIBDBUSMENU-GLIB-WARNING **: 19:00:56.784: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591660857418	Marionette	INFO	Listening on port 61872
+1591660857502	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591661113633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile50wGzV"
+1591661114278	Marionette	INFO	Enabled via --marionette
+
+(firefox:6357): LIBDBUSMENU-GLIB-WARNING **: 19:05:15.106: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591661115714	Marionette	INFO	Listening on port 62355
+1591661115772	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+1591661394112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehb1zmd"
+1591661394752	Marionette	INFO	Enabled via --marionette
+
+(firefox:6647): LIBDBUSMENU-GLIB-WARNING **: 19:09:55.554: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591661396156	Marionette	INFO	Listening on port 62786
+1591661396248	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1591661598600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenjLhhP"
+1591661599226	Marionette	INFO	Enabled via --marionette
+
+(firefox:6904): LIBDBUSMENU-GLIB-WARNING **: 19:13:20.015: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591661600698	Marionette	INFO	Listening on port 63228
+1591661600732	Marionette	WARN	TLS certificate errors will be ignored for this session
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
+shared memfd open() failed: Function not implemented
