@@ -1475,3 +1475,10 @@ shared memfd open() failed: Function not implemented
 shared memfd open() failed: Function not implemented
 shared memfd open() failed: Function not implemented
 shared memfd open() failed: Function not implemented
+1591666041826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS1bksY"
+1591666042520	Marionette	INFO	Enabled via --marionette
+
+(firefox:261): LIBDBUSMENU-GLIB-WARNING **: 20:27:23.412: Unable to get session bus: Error spawning command line “dbus-launch --autolaunch= --binary-syntax --close-stderr”: Child process exited with code 1
+1591666044068	Marionette	INFO	Listening on port 64268
+1591666044164	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
