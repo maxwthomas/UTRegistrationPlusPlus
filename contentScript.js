@@ -1,3 +1,9 @@
+// Import jquery
+var script = document.createElement('script');
+script.src = '/node_modules/jquery/dist/jquery.min.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
 // Header
 var header = document.createElement("th");
 header.scope = "col";
