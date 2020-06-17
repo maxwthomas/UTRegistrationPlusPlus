@@ -10,7 +10,7 @@ function darkMode(){
   element.classList.toggle("dark-mode");
 }
 
-$("#moon").click(function() {
+$('#moon').click(function() {
     darkMode();
 });
 
