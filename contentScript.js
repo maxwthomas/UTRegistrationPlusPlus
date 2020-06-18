@@ -1,31 +1,3 @@
-// Import jquery
-var jquery = document.createElement('script');
-jquery.src = '/node_modules/jquery/dist/jquery.min.js';
-jquery.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(jquery);
-
-// Import bootstrap
-var bootstrapjs = document.createElement('script');
-bootstrapjs.src = '/node_modules/bootstrap/dist/js/bootstrap.min.js';
-bootstrapjs.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(bootstrapjs);
-var bootstrapcss = document.createElement('link');
-bootstrapcss.href = '/node_modules/bootstrap/dist/css/bootstrap.min.css';
-bootstrapcss.rel = 'stylesheet';
-document.getElementsByTagName('head')[0].appendChild(bootstrapcss);
-
-// Import popper
-var popper = document.createElement('script');
-popper.src = '/node_modules/popper.js/dist/popper.min.js';
-popper.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(popper);
-
-// Import highcharts
-var highcharts = document.createElement('script');
-highcharts.src = '/node_modules/highcharts/highcharts.js';
-highcharts.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(highcharts);
-
 // Header
 var header = document.createElement("th");
 header.scope = "col";
