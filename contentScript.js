@@ -16,7 +16,7 @@ for (i = 0; i < info.children.length; i++) {
     // Attach image to longhorn button
     longhorn = document.createElement("td");
     longhorn.style.cssText = "color: rgb(51, 51, 51); text-decoration: none; font-weight: normal";
-    longhorn.innerHTML = "<input data-toggle='modal' data-target='#ourModal' id='ourButton' type='image' width='40' height='20' src='https://i.imgur.com/bThluov.png'>";
+    longhorn.innerHTML = "<input data-toggle='modal' data-target='#ourModal' id='ourButton" + (Math.floor(i/2) + 1) + "' class='ourBtn' type='image' width='40' height='20' src='https://i.imgur.com/bThluov.png'>";
 
     // Append button to document
     cur = info.children[i];
@@ -26,32 +26,56 @@ for (i = 0; i < info.children.length; i++) {
 }
 
 // Modal
-var modal_content = '<div class="modal fade" id="ourModal" role="dialog" aria-hidden="false">' +
+var modal_content = '<div class="modal fade" id="ourModal" role="dialog">' +
 '<div class="modal-dialog">' + 
 
 '<div class="modal-content">' +
 
   '<div class="modal-header">' +
-    '<h4 class="modal-title">Course Name</h4>' +
+    '<h4 class="modal-title"></h4>' +
     '<button type="button" class="close" data-dismiss="modal">&times;</button>' +
   '</div>' +
 
   '<div class="modal-body">' +
-    '<p style="box-shadow: 5px 5px 20px rgb(161, 161, 161)">' +
-    '<button class="btn btn-primary" id="rmp" type="button">Rate My Prof</button>' +
-    '<button class="btn btn-primary" id="ecis" type="button">eCIS</button>' +
-    '<button class="btn btn-primary" id="catalyst" type="button">UT Catalyst</button>' +
-    '<button class="btn btn-primary" id="prereq" type="button">Prereqs</button>' +
-    '<button class="btn btn-primary" id="textbook" type="button">Textbooks</button>' +
-    '<button class="btn btn-primary" id="syllabi" type="button">Syllabi</button>' +
-    '</p>' +
+    '<div class="shadow p-4 mb-4 bg-white">' +
+        '<div class="text-center">' +
+        '<a href="https://www.ratemyprofessors.com/search.jsp?queryBy=schoolId&schoolName=University+of+Texas+at+Austin&schoolID=1255&queryoption=TEACHER" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="rmp" role="button">Rate My Prof</a>' +
+        '<a href="https://utdirect.utexas.edu/ctl/ecis/results/search.WBX" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="ecis" role="button">eCIS</a>' +
+        '<a href="http://utcatalyst.org/grade-distributions" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="catalyst" role="button">UT Catalyst</a>' +
+        '</div>' +
+        '<div class="text-center">' +
+        '<a href="#" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="prereq" role="button">Prereqs</a>' +
+        '<a href="#" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="textbook" role="button">Textbooks</a>' +
+        '<a href="#" target="_blank" class="btn btn-primary btn-lg active m-1" aria-pressed="true" id="syllabi" role="button">Syllabi</a>' +
+        '</div>' + 
+    '</div>' +
   '</div>' +
 
   '<div class="modal-footer">' +
     '<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Add Class</button>' +
-  '</div></div></div></div>';
+  '</div>' +
+  '</div>' +
+  '</div>' +
+  '</div>';
 document.querySelector("#container").innerHTML = modal_content + document.querySelector("#container").innerHTML;
 
-$("#ourButton").click(function() {
+// Enable modal
+$(".ourBtn").click(function() {
     $("#ourModal").modal();
+});
+
+var course_name;
+var prof_name;
+var more_info;
+$(".ourBtn").click(function() {
+  var heading = document.querySelector("#ourModal > div > div > div.modal-header > h4");
+  // Get course name
+  course_name = this.parentElement.parentElement.previousElementSibling.firstElementChild.innerHTML;
+  heading.innerHTML = course_name;
+
+  // Get prof name
+  prof_name = this.parentElement.parentElement.children[5].innerHTML;
+  heading.innerHTML = heading.innerHTML + " with " + prof_name;
+  
+  var more_info_link = this.parentElement.parentElement.firstElementChild.firstElementChild.href;
 });
