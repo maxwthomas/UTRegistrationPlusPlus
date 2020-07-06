@@ -53,6 +53,8 @@ var modal_content = '<div class="modal fade" id="ourModal" role="dialog">' +
 
   '<div class="modal-footer">' +
     '<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Add Class</button>' +
+    '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">' +
+    '<button id="moon" class="darkBtn"><i class="fa fa-moon-o"></i></button>' +
   '</div>' +
   '</div>' +
   '</div>' +
@@ -76,6 +78,12 @@ $(".ourBtn").click(function() {
   // Get prof name
   prof_name = this.parentElement.parentElement.children[5].innerHTML;
   heading.innerHTML = heading.innerHTML + " with " + prof_name;
-  
+
   var more_info_link = this.parentElement.parentElement.firstElementChild.firstElementChild.href;
+});
+
+// Dark mode
+
+$('#moon').click(function() {
+  $("i", this).toggleClass("fa-moon-o fa-sun-o");
 });
