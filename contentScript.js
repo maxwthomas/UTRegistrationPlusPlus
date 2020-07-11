@@ -83,7 +83,6 @@ $(".ourBtn").click(function() {
 });
 
 // Dark mode
-
 $('#moon').click(function() {
   $("i", this).toggleClass("fa-moon-o fa-sun-o");
 });
