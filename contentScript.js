@@ -77,13 +77,22 @@ $(".ourBtn").click(function() {
 
   // Get prof name
   prof_name = this.parentElement.parentElement.children[5].innerHTML;
-  heading.innerHTML = heading.innerHTML + " with " + prof_name;
+  if (prof_name != "") {
+    heading.innerHTML = heading.innerHTML + " with " + prof_name;
+  }
 
   var more_info_link = this.parentElement.parentElement.firstElementChild.firstElementChild.href;
 });
 
 // Dark mode
-
 $('#moon').click(function() {
+  // Manually fix box shadow and class text
+  if (document.querySelector("#moon > i").className == "fa fa-moon-o") {
+    document.querySelector("#ourModal > div > div > div.modal-body > div").className = "shadow p-4 mb-4 bg-grey";
+    document.querySelector("#ourModal > div > div > div.modal-header > h4 > h2").style.cssText = "color: white;";
+  } else {
+    document.querySelector("#ourModal > div > div > div.modal-header > h4 > h2").style.cssText = "color: black;";
+  }
+  document.querySelector("#ourModal > div > div").classList.toggle("dark-mode");
   $("i", this).toggleClass("fa-moon-o fa-sun-o");
 });
