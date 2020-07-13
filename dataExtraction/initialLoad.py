@@ -22,7 +22,7 @@ with open('grades.csv') as csv_file:
                 firstname = names[0]
                 middlename = names[1] if len(names) > 1 else ''
             if names[0] == "[REDACTED]" or names[0] == " " or len(names) == 0 or cname == "None":
-                break
+                continue
             professor = Professor(firstname, middlename, lastname, ' ', -1, -1, -1, False)
             if professor in professors: 
                 for prof in professors:
@@ -42,6 +42,8 @@ for professor in professors:
     #for course in professor.courses:
         #print("\t" + repr(course))
     professor.addToDatabase()
-    if(count % onepercent == 0):print(str(count/onepercent) + "%")
+    if(count % onepercent == 0):
+        print(str(count/onepercent) + "%")
+        print(count)
     count += 1
 
