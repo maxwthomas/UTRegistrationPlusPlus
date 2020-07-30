@@ -60,20 +60,23 @@ class Schedule {
     }
 }
 
-scheduler.init('scheduler_here', new Date(), "month");
+$(document).ready(function() {
+    
+    scheduler.init('scheduler_here', new Date(), "month");
 
-var events = [
-    {id:1, text:"Meeting",   start_date:"07/11/2020 14:00",end_date:"07/11/2020 17:00"},
-    {id:2, text:"Conference",start_date:"07/15/2020 12:00",end_date:"07/18/2020 19:00"},
-    {id:3, text:"Interview", start_date:"07/24/2020 09:00",end_date:"07/24/2020 10:00"},
-    {id:4, 
-      start_date:"2020-07-03 10:00:00",
-     end_date:"2020-07-13 00:00:00",
-     text:"some_text",
-     details:"",
-     rec_type:"week_1___",
-     event_length:"7200",
-     event_pid:"0"}
-];
+    var events = [
+        {id:1, text:"Meeting",   start_date:"07/11/2020 14:00",end_date:"07/11/2020 17:00"},
+        {id:2, text:"Conference",start_date:"07/15/2020 12:00",end_date:"07/18/2020 19:00"},
+        {id:3, text:"Interview", start_date:"07/24/2020 09:00",end_date:"07/24/2020 10:00"},
+        {id:4, 
+          start_date:"2020-07-03 10:00:00",
+         end_date:"2020-07-13 00:00:00",
+         text:"some_text",
+         details:"",
+         rec_type:"week_1___",
+         event_length:"7200",
+         event_pid:"0"}
+    ];
 
-scheduler.parse(events, "json");
+    scheduler.parse(events, "json");
+});
