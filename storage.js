@@ -14,16 +14,20 @@ class Storage {
 		let sync = {};
 		try{
 			sync = browser.storage.sync.get(null);
+		}catch(err){
+			console.log("(UTRPP) Couldn't retrieve all from sync storage: " + err);
 		}
 		let local = {};
 		try{
 			local = browser.storage.sync.get(null);
+		}catch(err){
+			console.log("(UTRPP) Couldn't retrieve all from local storage: " + err);
 		}
 		// this order of sync first, then local, means any cases where the key is stored in both, the local value will override
-		for key in sync{
+		for(let key in sync){
 			result[key] = sync[key];
 		}
-		for key in local{
+		for(let key in local){
 			result[key] = local[key];
 		}
 		return result;
@@ -34,9 +38,12 @@ class Storage {
 		let result = null;
 		try{
 			result = browser.storage.sync.get(key);
-		}catch{
+		}catch(err){
+			console.log("(UTRPP) Couldn't retrieve key " + key + " from sync storage: " + err);
 			try{
 				result = browser.storage.local.get(key);
+			}catch(err){
+				console.log("(UTRPP) Couldn't retrieve key " + key + " from local storage: " + err);
 			}
 		}
 		return result;
@@ -69,10 +76,12 @@ class Storage {
 		key = value; // TODO not sure about this, will require testing
 		try{
 			browser.storage.sync.set(key);
-		}catch{
+		}catch(err){
+			console.log("(UTRPP) Couldn't store key " + key + " in sync storage: " + err);
 			try{
 				browser.storage.local.set(key);
-			}catch{
+			}catch(err){
+				console.log("(UTRPP) Couldn't store key " + key + " in local storage: " + err);
 				result = false;
 			}
 		}
@@ -84,13 +93,15 @@ class Storage {
 		let result = true;
 		try{
 			browser.storage.sync.clear();
-		}catch{
+		}catch(err){
+			console.log("(UTRPP) Couldn't clear all from sync storage: " + err);
 			result = false;
 		}
 		try{
 			browser.storage.local.clear();
-		}catch{
-			return = false;
+		}catch(err){
+			console.log("(UTRPP) Couldn't clear all from local storage: " + err);
+			result = false;
 		}
 		return result;
 	}
@@ -100,13 +111,15 @@ class Storage {
 		let result = true;
 		try{
 			browser.storage.sync.remove(key);
-		}catch{
+		}catch(err){
+			console.log("(UTRPP) Couldn't clear key " + key + " from sync storage: " + err);
 			result = false;
 		}
 		try{
 			browser.storage.local.remove(key);
 		}catch{
-			return = false;
+			console.log("(UTRPP) Couldn't clear key " + key + " from local storage: " + err);
+			result = false;
 		}
 		return result;
 	}

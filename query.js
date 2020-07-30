@@ -7,7 +7,7 @@ document.getElementsByTagName('head')[0].appendChild(script);*/
 /* DATA LOAD AND PREPROCESS */
 var professors = {};
 $.ajax({
-	url: "http://www.utregplusplus.com/query.php",
+	url: "https://www.utregplusplus.com/query.php",
 	dataType: "json",
 	method: "POST",
 	data: {
@@ -18,13 +18,13 @@ $.ajax({
 		professors = results;
 	},
 	failure: function(error){
-		alert("Call to our database failed with error: " + error);
+		console.log("(UTRPP) Call to our professors database failed with error: " + error);
 	}
 });
 
 var courses = {};
 $.ajax({
-	url: "http://www.utregplusplus.com/query.php",
+	url: "https://www.utregplusplus.com/query.php",
 	dataType: "json",
 	method: "POST",
 	data: {
@@ -35,7 +35,7 @@ $.ajax({
 		courses = results;
 	},
 	failure: function(error){
-		alert("Call to our database failed with error: " + error);
+		console.log("(UTRPP) Call to our courses database failed with error: " + error);
 	}
 });
 
@@ -55,23 +55,24 @@ class Lookup{
 }
 
 var lookups = [];
-/*$.ajax({
-	url: "dataExtraction/profIDLookup.csv",
+$.ajax({
+	url: "https://www.utregplusplus.com/query.php",
 	dataType: "text",
+	method: "POST",
+	data: {
+		type: "profids"
+	}
 	success: function(results){
 		let lines = results.split("\n");
 		lines.forEach(function(line){
 			lookups.push(new Lookup(line.split(",")));
 		});
 	},
-});*/
+	failure: function(error){
+		console.log("(UTRPP) Call to our professor ids database failed with error: " + error);
+	}
+});
 
-$.get("dataExtraction/profIDLookup.csv", function(data){
-	let lines = data.split("\n");
-	lines.forEach(function(line){
-		lookups.push(new Lookup(line.split(",")));
-	});
-}, "text");
 
 
 /* MAIN CLASS */
