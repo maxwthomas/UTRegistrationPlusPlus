@@ -114,11 +114,14 @@ $(".plusPlusLonghornBtn").click(function() {
 
 // Add class to student schedule
 $("#plusPlusAddClass").click(function() {
+
+  // Create course object and store it
   var course = new Course(course_name, prof_name, days, times, building, unique_number);
+  Storage.storeOne(unique_number, course);
+
+  // TODO: fix thursday, calendar start/end days (past 30/31)
   var days_list = days.trim().split("  ");
   var times_list = times.trim().split("  ");
-  
-  // TODO: fix thursday, calendar start/end days (past 30/31)
   const FIRST_MONDAY = 3;
   const LAST_MONDAY = 28;
   const WEEKDAYS = {"M":0, "T":1, "W":2, "TH":3, "F":4};
