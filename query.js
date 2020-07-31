@@ -61,7 +61,7 @@ $.ajax({
 	method: "POST",
 	data: {
 		type: "profids"
-	}
+	},
 	success: function(results){
 		let lines = results.split("\n");
 		lines.forEach(function(line){

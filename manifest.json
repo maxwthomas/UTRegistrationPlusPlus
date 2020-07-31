@@ -12,8 +12,8 @@
 
 	"content_scripts": [{
 		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*"],
-		"css": ["/node_modules/bootstrap/dist/css/bootstrap.min.css", "css/font-awesome.min.css", "content_style.css"],
-		"js": ["/node_modules/jquery/dist/jquery.min.js", "/node_modules/bootstrap/dist/js/bootstrap.min.js", "/node_modules/popper.js/dist/popper.min.js", "/node_modules/highcharts/highcharts.js", "content_script.js", "query.js", "storage.js"]
+		"css": ["/node_modules/bootstrap/dist/css/bootstrap.min.css", "css/font-awesome.min.css", "content_style.css", "schedule.css"],
+		"js": ["/node_modules/jquery/dist/jquery.min.js", "/node_modules/bootstrap/dist/js/bootstrap.min.js", "/node_modules/popper.js/dist/popper.min.js", "content_script.js", "/node_modules/highcharts/highcharts.js", "query.js", "storage.js", "course.js", "schedule.js"]
 	}],
 
 	"permissions": [
