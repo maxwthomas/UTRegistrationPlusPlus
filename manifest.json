@@ -5,21 +5,21 @@
 	"version": "1.0",
 
 	"browser_action": {
-    	"default_icon": "images/longhorn.png",
-    	"default_title": "UT Registration Plus Plus",
-    	"default_popup": "popup.html"
+    "default_icon": "images/longhorn.png",
+    "default_title": "UT Registration Plus Plus",
+    "default_popup": "popup.html"
 	},
 
 	"content_scripts": [{
 		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*"],
-		"css": ["/node_modules/bootstrap/dist/css/bootstrap.min.css", "css/font-awesome.min.css", "content_style.css", "schedule.css"],
-		"js": ["/node_modules/jquery/dist/jquery.min.js", "/node_modules/bootstrap/dist/js/bootstrap.min.js", "/node_modules/popper.js/dist/popper.min.js", "content_script.js", "/node_modules/highcharts/highcharts.js", "query.js", "storage.js", "course.js", "schedule.js"]
+		"css": ["css/bootstrap.min.css", "css/content_style.css"],
+		"js": ["js/jquery.min.js", "js/bootstrap.min.js", "js/highcharts.js", "js/query.js", "js/storage.js", "js/course.js", "js/content_script.js"]
 	}],
 
 	"permissions": [
-		"http://www.utregplusplus.com/",
+		"https://www.utregplusplus.com/",
 		"https://utdirect.utexas.edu/",
-        "storage"
+    "storage"
 	],
 
 	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
