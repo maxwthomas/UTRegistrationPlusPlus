@@ -1,6 +1,7 @@
 // class to represent a schedule for a student
 class Schedule {
 
+    // takes a string of semester in the format "Season Year" (Fall 2018)
     constructor(semester) {
         this.semester = semester;
         this.courses = [];
@@ -34,7 +35,7 @@ class Schedule {
         this.courses = [];
     }
 
-    // displays the schedule by getting information from the storage and updating the scheduler
+    // displays the schedule by updating the scheduler
     static displaySchedule(schedule, scheduler) {
         var sched_fall = [
             {id:1, text:"Meeting",   start_date:"07/11/2020 14:00",end_date:"07/11/2020 17:00"},
@@ -51,7 +52,7 @@ class Schedule {
             {id:1, text:"Hello",start_date:"07/15/2020 12:00",end_date:"07/18/2020 19:00"},
             {id:2, text:"Hi", start_date:"07/24/2020 09:00",end_date:"07/24/2020 10:00"},
         ];
-        
+
         if (schedule == "fall2020") {
             scheduler.parse(sched_fall, "json");
         } else {
@@ -62,12 +63,7 @@ class Schedule {
 
 $(document).ready(function() {
     
-    // TODO: determine the starting date to display
     scheduler.init('scheduler_here', new Date(), "month");
-
-
-    // get courses from storage class (dictionary {unique: course object})
-    // const courses = Storage.retrieveAll(schedule);
     
     $("select").on("change", function() {
         Schedule.displaySchedule(this.value, scheduler);
