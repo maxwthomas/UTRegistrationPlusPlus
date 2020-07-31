@@ -12,7 +12,7 @@ class Schedule {
         this.courses.push(course);
     }
 
-    // removes a course from the schedule
+    // given course object, removes a course from the schedule
     removeCourse(course) {
         // find course
         var swapped = false;
@@ -24,6 +24,7 @@ class Schedule {
                 this.courses[i] = this.courses[this.courses.length - 1];
                 this.courses[this.courses.length - 1] = course;
             }
+            i++;
         }
         if (swapped) {
             this.courses.pop();
@@ -35,37 +36,114 @@ class Schedule {
         this.courses = [];
     }
 
-    // displays the schedule by updating the scheduler
-    static displaySchedule(schedule, scheduler) {
-        var sched_fall = [
-            {id:1, text:"Meeting",   start_date:"07/11/2020 14:00",end_date:"07/11/2020 17:00"},
-            {id:2, 
-              start_date:"2020-07-03 10:00:00",
-             end_date:"2020-07-13 00:00:00",
-             text:"some_text",
-             details:"",
-             rec_type:"week_1___",
-             event_length:"7200",
-             event_pid:"0"}
-        ];
-        var sched_spring = [
-            {id:1, text:"Hello",start_date:"07/15/2020 12:00",end_date:"07/18/2020 19:00"},
-            {id:2, text:"Hi", start_date:"07/24/2020 09:00",end_date:"07/24/2020 10:00"},
-        ];
-
-        if (schedule == "fall2020") {
-            scheduler.parse(sched_fall, "json");
-        } else {
-            scheduler.parse(sched_spring, "json");
+    // returns a string of course names currently in schedule
+    // used for debugging
+    getClassList() {
+        var result = "";
+        for (var i = 0; i < this.courses.length; i++) {
+            result += this.courses[i].courseName() + " ";
         }
+        return result;
+    }
+
+    // given a schedule object displays the schedule by updating the scheduler
+    static displaySchedule(schedule, scheduler) {
+        scheduler.clearAll();
+        var json_format = [];
+        for (var i = 0; i < schedule.courses.length; i++) {
+            var json_format_course = schedule.courses[i].getJSON();
+            json_format.push(json_format_course);
+        }
+        scheduler.parse(json_format, "json"); 
+    }
+}
+
+// dynamic class to represent a course the student could add to schedule
+class Course {
+
+    constructor(name, professor, days, times, building, unique_number, semester) {
+        this.name = name;
+        this.professor = professor;
+        this.days = days;
+        this.times = times;
+        this.building = building;
+        this.unique_number = unique_number;
+        this.semester = semester;
+
+        this.time_details = this.getTimeDetails();
+        this.start_date = this.time_details[0];
+        this.end_date = this.time_details[1];
+        this.event_length = this.time_details[2];
+    }
+
+    courseName() {
+        return this.name;
+    }
+
+    getSemester() {
+        return this.semester;
+    }
+
+    // TODO
+    // returns a list of [[start date, end date, length of course], ...]
+    getTimeDetails() {
+        return ["2020-07-03 10:00:00", "2020-08-25 00:00:00", "7200"];
+    }
+
+    // gets the json format of a course for scheduler parse method
+    getJSON() {
+        var json_format = {
+            id: this.unique_number,
+            text: this.name,
+            start_date: this.start_date,
+            end_date: this.end_date,
+            rec_type: "week_1___",
+            event_length: this.event_length,
+            event_pid: "0"
+        };
+        return json_format;
     }
 }
 
 $(document).ready(function() {
     
     scheduler.init('scheduler_here', new Date(), "month");
+
+    // get dictionary of courses for all semesters
+    // dictionary in format {unique number: course object}
+    var courses = Storage.retrieveAll();
+
+    // create a dictionary of schedules for each unique semester
+    // dictionary in format {semester: schedule object}
+    var schedules = {};
+    for (var key in courses) {
+        var course = courses[key];
+        var schedule;
+        if (course.getSemester() in schedules) {
+            var schedule = schedules[course.getSemester()];
+        } else {
+            var schedule = new Schedule(course.getSemester());
+            schedules[course.getSemester()] = schedule;
+        }
+        schedule.addCourse(course);
+    }
+
+    // add options to drop down menu
+    for (var semester in schedules) {
+        var option = $("<option value='" + semester + "'></option>").text(semester);
+        $("#plusPlusSemesterOptions").append(option);
+    }
+
+    // display default
+    if (Object.keys(schedules).length != 0) {
+        var first_sched_key = Object.keys(schedules)[0];
+        var first_sched = schedules[first_sched_key];
+        Schedule.displaySchedule(first_sched, scheduler);
+    }
     
+    // change schedule with drop down menu
     $("select").on("change", function() {
-        Schedule.displaySchedule(this.value, scheduler);
+        var cur_sched = schedules[this.value];
+        Schedule.displaySchedule(cur_sched, scheduler);
     });
 });
