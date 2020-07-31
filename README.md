@@ -3,30 +3,30 @@
 ## Architecture
 
 ### File Structure
-UTRegistrationPlusPlus
-├── README.md
-├── css
-│   ├── bootstrap.min.css
-│   ├── content_style.css
-│   └── schedule.css
-├── images
-│   ├── longhorn.png
-├── js
-│   ├── bootstrap.min.js
-│   ├── bootstrap.min.js.map
-│   ├── content_script.js
-│   ├── course.js
-│   ├── highcharts.js
-│   ├── highcharts.js.map
-│   ├── jquery.min.js
-│   ├── popup.js
-│   ├── query.js
-│   ├── schedule.js
-│   └── storage.js
-├── manifest.json
-├── popup.html
-├── schedule.html
-└── scheduler (only directory shown)
+UTRegistrationPlusPlus  
+├── README.md  
+├── css  
+│   ├── bootstrap.min.css  
+│   ├── content_style.css  
+│   └── schedule.css  
+├── images  
+│   ├── longhorn.png  
+├── js  
+│   ├── bootstrap.min.js  
+│   ├── bootstrap.min.js.map  
+│   ├── content_script.js  
+│   ├── course.js  
+│   ├── highcharts.js  
+│   ├── highcharts.js.map  
+│   ├── jquery.min.js  
+│   ├── popup.js  
+│   ├── query.js  
+│   ├── schedule.js  
+│   └── storage.js  
+├── manifest.json  
+├── popup.html  
+├── schedule.html  
+└── scheduler (only directory shown)  
 
 ### File Use
 1. css/
