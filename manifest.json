@@ -5,9 +5,9 @@
 	"version": "1.0",
 
 	"browser_action": {
-    "default_icon": "images/longhorn.png",
-    "default_title": "UT Registration Plus Plus",
-    "default_popup": "popup.html"
+		"default_icon": "images/longhorn.png",
+		"default_title": "UT Registration Plus Plus",
+		"default_popup": "popup.html"
 	},
 
 	"content_scripts": [{
