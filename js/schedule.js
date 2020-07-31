@@ -52,7 +52,11 @@ class Schedule {
         var json_format = [];
         for (var i = 0; i < schedule.courses.length; i++) {
             var json_format_course = schedule.courses[i].getJSON();
-            json_format.push(json_format_course);
+
+            // json format course could have multiple entries
+            for (var entry = 0; entry < json_format_course.length; entry++) {
+                json_format.push(json_format_course[entry]);
+            }
         }
         scheduler.parse(json_format, "json"); 
     }
@@ -71,9 +75,6 @@ class Course {
         this.semester = semester;
 
         this.time_details = this.getTimeDetails();
-        this.start_date = this.time_details[0];
-        this.end_date = this.time_details[1];
-        this.event_length = this.time_details[2];
     }
 
     courseName() {
@@ -87,21 +88,30 @@ class Course {
     // TODO
     // returns a list of [[start date, end date, length of course], ...]
     getTimeDetails() {
-        return ["2020-07-03 10:00:00", "2020-08-25 00:00:00", "7200"];
+        return [
+            ["2020-07-03 10:00:00", "2020-08-25 00:00:00", "7200"],
+            ["2020-07-05 10:00:00", "2020-08-25 00:00:00", "7200"]
+        ];
     }
 
     // gets the json format of a course for scheduler parse method
+    // returns an array due to different start/end dates and event lengths
     getJSON() {
-        var json_format = {
-            id: this.unique_number,
-            text: this.name,
-            start_date: this.start_date,
-            end_date: this.end_date,
-            rec_type: "week_1___",
-            event_length: this.event_length,
-            event_pid: "0"
-        };
-        return json_format;
+        var json_format_array = [];
+
+        for (var i = 0; i < this.time_details.length; i++) {
+            var json_format = {
+                id: this.unique_number + i,
+                text: this.name,
+                start_date: this.time_details[i][0],
+                end_date: this.time_details[i][1],
+                rec_type: "week_1___",
+                event_length: this.time_details[i][2],
+                event_pid: "0"
+            }
+            json_format_array.push(json_format);
+        }
+        return json_format_array;
     }
 }
 
