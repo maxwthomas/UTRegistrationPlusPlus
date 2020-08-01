@@ -47,7 +47,7 @@ var modal_content = "<div class='modal fade' id='plusPlusModal' role='dialog'>" 
       "</div>" +
 
       "<div class='modal-footer'>" +
-        "<button type='submit' class='btn btn-success btn-block'>Add Class</button>" +
+        "<button id='plusPlusAddClass' type='submit' class='btn btn-success btn-block'>Add Class</button>" +
         "<button class='plusPlusDarkBtn' id='plusPlusMoon'><i class='fa fa-moon-o' id='plusPlusDarkSymbol'></i></button>" +
       "</div>" +
 
@@ -73,14 +73,16 @@ $("#plusPlusMoon").click(function() {
   $("#plusPlusDarkSymbol").toggleClass("fa-moon-o fa-sun-o");
 });
 
+const END_PATHNAME_INDEX = 38;
+const END_PATHNAME = "results/";
 var course_name;
 var prof_name;
 var unique_number;
+var unique_number_text;
 var more_info_link;
+var semester;
 $(".plusPlusLonghornBtn").click(function() {
   // Get course name
-  const END_PATHNAME_INDEX = 38;
-  const END_PATHNAME = "results/";
   if (window.location.pathname.substring(END_PATHNAME_INDEX) == END_PATHNAME) {
     // Course name for menu page
     course_name = $(this).parent().parent().prevAll().children(".course_header")[0].textContent;
@@ -97,7 +99,36 @@ $(".plusPlusLonghornBtn").click(function() {
     $("#plusPlusModalTitle").text(course_name);
   }
 
-  // Get link to more information
+  // Get unique number
   unique_number = $(this).parent().siblings().filter("[data-th='Unique']")[0];
-  more_info_link = $(unique_number).children()[0].href;
+  unique_number_text = unique_number.textContent;
+
+  // Get link to more information
+  if (window.location.pathname.substring(END_PATHNAME_INDEX) == END_PATHNAME) {
+    more_info_link = $(unique_number).children()[0].href;
+  }
+
+  // Get days, times, and building
+  days = $(this).parent().siblings().filter("[data-th='Days']")[0].textContent;
+  times = $(this).parent().siblings().filter("[data-th='Hour']")[0].textContent;
+  building = $(this).parent().siblings().filter("[data-th='Room']")[0].textContent;
+  
+  // Get semester
+  var semester_text;
+  if (window.location.pathname.substring(END_PATHNAME_INDEX) == END_PATHNAME) {
+    // Semester for menu page
+    semester_text = document.querySelector("#title > h1").textContent.split(" ");
+  } else {
+    // Course name for specific course page
+    semester_text = document.querySelector("#inner_header > h1").textContent.split(" ");
+  }
+  semester = semester_text[0] + " " + semester_text[1];
+});
+
+// Add class to student schedule
+$("#plusPlusAddClass").click(function() {
+
+  // Create course object and store it
+  var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
+  Storage.storeOne(course.unique_number, course);
 });
