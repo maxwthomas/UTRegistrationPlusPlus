@@ -274,6 +274,13 @@ $(document).ready(function() {
         $("#plusPlusSemesterOptions").append(option);
     }
 
+    // fix euro symbols
+    scheduler.attachEvent("onTemplatesReady", function(){
+        scheduler.templates.event_bar_date = function(start,end,ev){  	
+          return "* <b>"+scheduler.templates.event_date(start)+"</b> - <b>"+scheduler.templates.event_date(end)+"</b> ";
+        };
+    });
+
     // display default
     if (Object.keys(schedules).length != 0) {
         var first_sched_key = Object.keys(schedules)[0];
