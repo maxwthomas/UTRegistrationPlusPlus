@@ -13,7 +13,7 @@
 	"content_scripts": [{
 		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*"],
 		"css": ["css/bootstrap.min.css", "css/content_style.css"],
-		"js": ["js/jquery.min.js", "js/bootstrap.min.js", "js/highcharts.js",  "js/content_script.js", "js/query.js", "js/storage.js", "js/schedule.js", "js/course.js"]
+		"js": ["js/jquery.min.js", "js/bootstrap.min.js", "js/highcharts.js",  "js/content_script.js", "js/query.js", "js/storage.js", "js/schedule.js"]
 	}],
 
 	"permissions": [
