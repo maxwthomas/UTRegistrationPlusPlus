@@ -132,3 +132,4 @@ $("#plusPlusAddClass").click(function() {
   var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
   Storage.storeOne(course.unique_number, course);
 });
+
