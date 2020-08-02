@@ -81,6 +81,7 @@ var unique_number;
 var unique_number_text;
 var more_info_link;
 var semester;
+var is_available;
 $(".plusPlusLonghornBtn").click(function() {
   // Get course name
   if (window.location.pathname.substring(END_PATHNAME_INDEX) == END_PATHNAME) {
@@ -119,16 +120,36 @@ $(".plusPlusLonghornBtn").click(function() {
     // Semester for menu page
     semester_text = document.querySelector("#title > h1").textContent.split(" ");
   } else {
-    // Course name for specific course page
+    // Semester for specific course page
     semester_text = document.querySelector("#inner_header > h1").textContent.split(" ");
   }
   semester = semester_text[0] + " " + semester_text[1];
+
+  // Determine if the course is available
+  if (window.location.pathname.substring(END_PATHNAME_INDEX) == END_PATHNAME) {
+    // Availability for menu page
+    is_available = !($(this).parent().parent().hasClass("unavailable"));
+  } else {
+    // Availability for specific course page
+    var status = $(this).parent().siblings().filter("[data-th='Status']")[0].textContent;
+    is_available = !(status == "closed" || status == "cancelled");
+  }
 });
 
 // Add class to student schedule
 $("#plusPlusAddClass").click(function() {
+  if (is_available) {
+    // Create course object and store it
+    var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
+    Storage.storeOne(course.unique_number, course);
+  } else {
+    alert(course_name.trim() + " is not available");
+  }
+});
 
-  // Create course object and store it
-  var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
-  Storage.storeOne(course.unique_number, course);
+// Fix scroll
+$(window).scroll(function () {
+	if ($(document).height() <= $(window).scrollTop() + $(window).height() + 150) {
+    
+  }
 });
