@@ -49,8 +49,8 @@ class Lookup{
 		this.ln = entry[5];
 		this.id = entry[6];
 	}
-	matches(firstname, middlename, lastname){
-		return this.fn == firstname && this.mn == middlename && this.ln == lastname ? this.id : -1;
+	static matches(lookup, firstname, middlename, lastname){
+		return lookup.fn == firstname && lookup.mn == middlename && lookup.ln == lastname ? lookup.id : -1;
 	}
 }
 
@@ -77,13 +77,6 @@ $.ajax({
 
 /* MAIN CLASS */
 class Query{
-	static allProfs(){
-		return professors;
-	}
-
-	static allCourses(){
-		return courses;
-	}
 	/* 
 	 * A Query object is the central piece for accessing our data. Construst an object with a first, middle, and last name.
 	 * Middle name can be blank, but an empty string still needs to be passed. From there, a lookup will be done based on our
@@ -91,75 +84,81 @@ class Query{
 	 * used and return default values. "found" parameter of a Query object is a boolean describing if an id was found in the lookup.
 	 */
 	constructor(courseLink){
-		var page;
+		var page = null;
 		$.ajax({
-			//type: "GET",
+			type: "GET",
 			url: courseLink,
-			//dataType: "html",
+			async: false,
 			success: function(data){
-				page = $($.parseHTML(data));				
+				page = data;
 			},
 			failure: function(error){
 				// TODO adjust to set default vals instead
 				alert("Call to course link failed with error: " + error);
 			}
 		});
-		this.textbookLink = page.find("a[target='_blank']").prop("href");
-		this.description = page.find("#details").text();
 
-		let nameString = page.find("td[data-th='Instructor']").text();
+		this._textbookLink = $(page).find("a[target='_blank']").prop("href");
+		this._desc = $(page).find("#details").text();
+
+		let nameString = $(page).find("td[data-th='Instructor']").text();
 		let namePieces = nameString.trim().toUpperCase().split(",");
 		this.ln = namePieces[0];
 		namePieces = namePieces[1].trim().split(" ");
 		this.fn = namePieces[0];
 		this.mn = namePieces.length > 1 ? namePieces[1] : "";
-		for(let lookup in lookups){
-			let id = lookup.matches(this.fn, this.mn, this.ln);
+		let id = -1;
+		for(let i in lookups){
+			id = Lookup.matches(lookups[i], this.fn, this.mn, this.ln);
 			if(id > 0) break;
 		}
 		this.found = id > 0;
 		this.profid = id;
+
 	}
 
+
 	// Returns a string of the department or an empty string if not found
-	department(){
-		return this.found ? professors[this.id]["department"] : "";
+	get department(){
+		return this.found ? professors[this.profid]["department"] : "";
 	}
 
 	// Returns a dictionary of RMP information with the following keys: score, ratingcount, tid, link
-	rmp(){
+	get rmp(){
 		var result = {};
-		result["score"] = this.found ? professors[this.id]["rmpscore"] : -1;
-		result["ratingcount"] = this.found ? professors[this.id]["rmpratingcount"] : -1;
-		result["tid"] = this.found ? professors[this.id]["rmptid"] : -1;
-		result["link"] = this.found && result["tid"] > 0 ? "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=" + result["tid"] : "https://www.ratemyprofessors.com/search.jsp?queryBy=teacherName&schoolName=university+of+texas+at+austin&queryoption=HEADER&query=" + professors[this.id]["firstname"] + "%20" + professors[this.id]["lastname"] + ";&facetSearch=true";
+		alert
+		result["score"] = this.found ? professors[this.profid]["rmpscore"] : -1;
+		result["ratingcount"] = this.found ? professors[this.profid]["rmpratingcount"] : -1;
+		result["tid"] = this.found ? professors[this.profid]["rmptid"] : -1;
+		result["link"] = this.found && result["tid"] > 0 ? "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=" + result["tid"] : "https://www.ratemyprofessors.com/search.jsp?queryBy=teacherName&schoolName=university+of+texas+at+austin&queryoption=HEADER&query=" + this.fn + "%20" + this.ln + ";&facetSearch=true";
 		return result;
 	}
 
 	// Return a string link to the ecis search page for the Query
-	ecis(){
+	get ecisLink(){
 		return "http://utdirect.utexas.edu/ctl/ecis/results/index.WBX?&s_in_action_sw=S&s_in_search_type_sw=N&s_in_search_name=" + this.ln + "%20" + this.fn;
 	}
 
 	// Returns a boolean based on if professor has been accused of sexual misconduct
-	sexualmisconduct(){
-		return !this.found ? false : professors[this.id]["sexualmisconduct"] == "t";
+	get sm(){
+		return !this.found ? false : professors[this.profid]["sexualmisconduct"] == "t";
 	}
 
 	// Returns an array of course dictionaries with the following keys: name, field, number, semester, profid, a3, a2, a1, b3, b2, b1, c3, c2, c1, d3, d2, d1, f
-	courses(){
-		return !this.found ? [] : courses[this.id];
+	get courses(){
+		return !this.found ? [] : courses[this.profid];
 	}
 
-	fullName(){
+	get fullName(){
 		return this.fn + " " + (this.mn ? this.mn + " " : "") + this.ln;
 	}
 
-	textbookLink(){
-		return this.textbookLink;
+	get textbookLink(){
+		return this._textbookLink;
 	}
 
-	desc(){
-		return this.department;
+	get desc(){
+		return this._desc;
 	}
+
 }
