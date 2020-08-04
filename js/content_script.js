@@ -151,6 +151,13 @@ $("#plusPlusAddClass").click(function() {
   }
 });
 
+<<<<<<< HEAD
+  // Create course object and store it
+  var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
+  Storage.storeOne(course.unique_number, course);
+});
+
+=======
 // Fix scroll
 $(window).scroll(function () {
 	if ($(document).height() <= $(window).scrollTop() + $(window).height() + 150) {
