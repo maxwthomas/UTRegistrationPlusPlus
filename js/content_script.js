@@ -134,6 +134,10 @@ $(".plusPlusLonghornBtn").click(function() {
     var status = $(this).parent().siblings().filter("[data-th='Status']")[0].textContent;
     is_available = !(status == "closed" || status == "cancelled");
   }
+
+  // Create query object and update button links
+  var course_query = new Query(more_info_link);
+  $("#plusPlusECIS").attr("href", course_query.ecis());
 });
 
 // Add class to student schedule
@@ -141,7 +145,7 @@ $("#plusPlusAddClass").click(function() {
   if (is_available) {
     // Create course object and store it
     var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
-    Storage.storeOne(course.unique_number, course);
+    //Storage.storeOne(course.unique_number, course);
   } else {
     alert(course_name.trim() + " is not available");
   }
@@ -150,6 +154,6 @@ $("#plusPlusAddClass").click(function() {
 // Fix scroll
 $(window).scroll(function () {
 	if ($(document).height() <= $(window).scrollTop() + $(window).height() + 150) {
-    
+    alert("hello");
   }
 });
