@@ -1,9 +1,3 @@
-// import jquery TODO not sure if this is needed
-/*var script = document.createElement('script');
-script.src = '/node_modules/jquery/dist/jquery.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);*/
-
 /* DATA LOAD AND PREPROCESS */
 var professors = {};
 $.ajax({
