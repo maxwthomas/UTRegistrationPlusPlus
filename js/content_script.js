@@ -1,3 +1,19 @@
+// Dark mode button for course page
+var darkmode_course_page = $("<button class='plusPlusDarkCoursePage' id='plusPlusMoonCoursePage'></button>").text("");
+var icon_course_page = $("<i class='fa fa-moon-o' id='plusPlusDarkSymbolCoursePage'></i>").text("");
+$(darkmode_course_page).append(icon_course_page);
+$("#small_search").append(darkmode_course_page);
+$("#plusPlusMoonCoursePage").click(function() {
+  $("#plusPlusDarkSymbolCoursePage").toggleClass("fa-moon-o fa-sun-o");
+  $("#container").toggleClass("dark-mode");
+  $("#search_area").toggleClass("dark-mode");
+  $("#inner_header").toggleClass("dark-mode");
+  $("#inner_body").toggleClass("dark-mode");
+  $(".course_header").toggleClass("dark-mode");
+  $("h2").toggleClass("dark-mode");
+  $("#filter").toggleClass("dark-mode");
+});
+
 // Header
 var header = $("<th scope='col'></th>").text("Plus Plus");
 $("#inner_body > table > thead > tr").append(header);
@@ -61,7 +77,7 @@ $(".plusPlusLonghornBtn").click(function() {
   $("#plusPlusModal").modal();
 });
 
-// Dark mode
+// Dark mode for modal
 $("#plusPlusMoon").click(function() {
   // Manually fix title text
   if ($("#plusPlusDarkSymbol").attr("class") == "fa fa-moon-o") {
@@ -134,10 +150,19 @@ $(".plusPlusLonghornBtn").click(function() {
     var status = $(this).parent().siblings().filter("[data-th='Status']")[0].textContent;
     is_available = !(status == "closed" || status == "cancelled");
   }
+  // Disable add button if not available
+  if (!is_available) {
+    $("#plusPlusAddClass").attr("class", "btn btn-success btn-block disabled");
+  } else {
+    $("#plusPlusAddClass").attr("class", "btn btn-success btn-block");
+  }
 
   // Create query object and update button links
   var course_query = new Query(more_info_link);
-  $("#plusPlusECIS").attr("href", course_query.ecis());
+  $("#plusPlusECIS").attr("href", course_query.ecisLink);
+  $("#plusPlusPrereq").attr("href", course_query.desc);
+  $("#plusPlusTextbook").attr("href", course_query.textbookLink);
+  $("#plusPlusRMP").attr("href", course_query.rmp["link"]);
 });
 
 // Add class to student schedule
@@ -146,8 +171,6 @@ $("#plusPlusAddClass").click(function() {
     // Create course object and store it
     var course = new Course(course_name, prof_name, days, times, building, unique_number_text, semester);
     //Storage.storeOne(course.unique_number, course);
-  } else {
-    alert(course_name.trim() + " is not available");
   }
 });
 

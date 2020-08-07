@@ -2,30 +2,30 @@
 class Course {
 
   constructor(name, professor, days, times, building, unique_number, semester) {
-    this.name = name;
+    this._name = name;
     this.professor = professor;
     this.days = days;
     this.times = times;
     this.building = building;
     this.unique_number = unique_number;
-    this.semester = semester;
+    this._semester = semester;
   
     this.time_details = this.getTimeDetails();
   }
   
-  courseName() {
-    return this.name;
+  get name() {
+    return this._name;
   }
   
-  getSemester() {
-    return this.semester;
+  get semester() {
+    return this._semester;
   }
   
   // returns a list of [[start date, end date, length of course], ...]
   getTimeDetails() {
-    var semester_start_date = Schedule.START_END_DAYS[this.getSemester()][0];
-    var semester_start_weekday = Schedule.START_END_DAYS[this.getSemester()][1];
-    var semester_end_date = Schedule.START_END_DAYS[this.getSemester()][2];
+    var semester_start_date = Schedule.START_END_DAYS[this.semester][0];
+    var semester_start_weekday = Schedule.START_END_DAYS[this.semester][1];
+    var semester_end_date = Schedule.START_END_DAYS[this.semester][2];
   
     var json_format_day_time = [];
     var days_list = this.days.trim().split("  ");

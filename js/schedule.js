@@ -49,7 +49,7 @@ class Schedule {
   getClassList() {
     var result = "";
     for (var i = 0; i < this.courses.length; i++) {
-      result += this.courses[i].courseName() + " ";
+      result += this.courses[i].name + " ";
     }
     return result;
   }
@@ -174,11 +174,11 @@ $(document).ready(function() {
   for (var key in courses) {
     var course = courses[key];
     var schedule;
-    if (course.getSemester() in schedules) {
-      var schedule = schedules[course.getSemester()];
+    if (course.semester in schedules) {
+      var schedule = schedules[course.semester];
     } else {
-      var schedule = new Schedule(course.getSemester());
-      schedules[course.getSemester()] = schedule;
+      var schedule = new Schedule(course.semester);
+      schedules[course.semester] = schedule;
     }
     schedule.addCourse(course);
   }
@@ -214,4 +214,9 @@ $(document).ready(function() {
     scheduler.setCurrentView(new Date(start_date), "week");
     Schedule.displaySchedule(cur_sched, scheduler);
   });
+
+  // Dark mode
+  $("#plusPlusMoonSchedule").click(function() {
+    $("#plusPlusDarkSymbolSchedule").toggleClass("fa-moon-o fa-sun-o");
+  })
 });
