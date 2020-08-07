@@ -55,7 +55,7 @@ var modal_content = "<div class='modal fade' id='plusPlusModal' role='dialog'>" 
             "<div class='col'><a href='https://utdirect.utexas.edu/ctl/ecis/results/search.WBX' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusECIS'>eCIS</a></div>" +
           "</div>" +
           "<div class='row' id='plusPlusRowTwo'>" +
-            "<div class='col'><a href='#' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusPrereq'>Prereqs</a></div>" +
+            "<div class='col'><a class='btn btn-primary btn-lg active' id='plusPlusPrereq'>Prereqs</a></div>" +
             "<div class='col'><a href='#' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusTextbook'>Textbooks</a></div>" +
             "<div class='col'><a href='https://www.ratemyprofessors.com/search.jsp?queryBy=schoolId&schoolName=University+of+Texas+at+Austin&schoolID=1255&queryoption=TEACHER' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusRMP'>RMP</a></div>" +
           "</div>" +
@@ -88,6 +88,25 @@ $("#plusPlusMoon").click(function() {
   $("#plusPlusModalContent").toggleClass("dark-mode");
   $("#plusPlusDarkSymbol").toggleClass("fa-moon-o fa-sun-o");
 });
+
+// Modal for description and course prereqs
+var modal_content_prereqs = "<div class='modal fade' id='plusPlusModalPrereqs' role='dialog'>" +
+"<div class='modal-dialog'>" + 
+  "<div class='modal-content' id='plusPlusModalContentPrereqs'>" +
+
+    "<div class='modal-header'>" +
+      "<div class='modal-title' id='plusPlusModalTitlePrereqs'></div>" +
+      "<button type='button' class='close' id='plusPlusClosePrereqs' data-dismiss='modal'>&times;</button>" +
+    "</div>" +
+
+    "<div class='modal-body' id='plusPlusModalBodyPrereqs'>" +
+      "<p id='plusPlusPrereqText'></p>" +
+    "</div>" +
+
+  "</div>" +
+"</div>" +
+"</div>";
+$("#container").append(modal_content_prereqs);
 
 const END_PATHNAME_INDEX = 38;
 const END_PATHNAME = "results/";
@@ -160,9 +179,20 @@ $(".plusPlusLonghornBtn").click(function() {
   // Create query object and update button links
   var course_query = new Query(more_info_link);
   $("#plusPlusECIS").attr("href", course_query.ecisLink);
-  $("#plusPlusPrereq").attr("href", course_query.desc);
   $("#plusPlusTextbook").attr("href", course_query.textbookLink);
   $("#plusPlusRMP").attr("href", course_query.rmp["link"]);
+
+  // Enable prereq modal
+  $("#plusPlusPrereq").click(function() {
+    $("#plusPlusModalTitlePrereqs").text(course_name);
+    $("#plusPlusPrereqText").text(course_query.desc);
+    $("#plusPlusModalPrereqs").modal();
+  });
+
+  // Alert for sexual misconduct
+  if (course_query.sm) {
+    alert(course_query.fullName + " has been accused of sexual misconduct.");
+  }
 });
 
 // Add class to student schedule
