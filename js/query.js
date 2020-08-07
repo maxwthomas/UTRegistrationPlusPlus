@@ -33,6 +33,23 @@ $.ajax({
 	}
 });
 
+var schedule = {};
+$.ajax({
+	url: "https://www.utregplusplus.com/query.php",
+	dataType: "json",
+	method: "POST",
+	data: {
+		type: "schedule",
+		view: "json"
+	},
+	success: function(results){
+		schedule = results;
+	},
+	failure: function(error){
+		console.log("(UTRPP) Call to our schedule database failed with error: " + error);
+	}
+});
+
 class Lookup{
 	constructor(entry){
 		this.fi = entry[0];
@@ -71,6 +88,9 @@ $.ajax({
 
 /* MAIN CLASS */
 class Query{
+	static schedule(){
+		return schedule;
+	}
 	/* 
 	 * A Query object is the central piece for accessing our data. Construst an object with a first, middle, and last name.
 	 * Middle name can be blank, but an empty string still needs to be passed. From there, a lookup will be done based on our
@@ -130,7 +150,7 @@ class Query{
 
 	// Return a string link to the ecis search page for the Query
 	get ecisLink(){
-		return "http://utdirect.utexas.edu/ctl/ecis/results/index.WBX?&s_in_action_sw=S&s_in_search_type_sw=N&s_in_search_name=" + this.ln + "%20" + this.fn;
+		return "http://utdirect.utexas.edu/ctl/ecis/results/index.WBX?&s_in_action_sw=S&s_in_search_type_sw=N&s_in_search_name=" + this.ln + "%2C%20" + this.fn;
 	}
 
 	// Returns a boolean based on if professor has been accused of sexual misconduct

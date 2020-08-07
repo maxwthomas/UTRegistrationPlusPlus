@@ -13,13 +13,13 @@ class Storage {
 		let result = {};
 		let sync = {};
 		try{
-			sync = browser.storage.sync.get(null);
+			sync = browser.storage.sync.get();
 		}catch(err){
 			console.log("(UTRPP) Couldn't retrieve all from sync storage: " + err);
 		}
 		let local = {};
 		try{
-			local = browser.storage.sync.get(null);
+			local = browser.storage.local.get();
 		}catch(err){
 			console.log("(UTRPP) Couldn't retrieve all from local storage: " + err);
 		}
@@ -72,14 +72,13 @@ class Storage {
 
 	// stores the given key/value pair in storage. Will return a boolean based on success/failure
 	static storeOne(key, value){
-		let result = true;
-		key = value; // TODO not sure about this, will require testing
+		let result = true; 
 		try{
-			browser.storage.sync.set(key);
+			browser.storage.sync.set({key, value}); // TODO still needs testing
 		}catch(err){
 			console.log("(UTRPP) Couldn't store key " + key + " in sync storage: " + err);
 			try{
-				browser.storage.local.set(key);
+				browser.storage.local.set({key, value});
 			}catch(err){
 				console.log("(UTRPP) Couldn't store key " + key + " in local storage: " + err);
 				result = false;
