@@ -7,6 +7,7 @@
   <script src="scheduler/codebase/ext/dhtmlxscheduler_recurring.js" type="text/javascript"></script>
 	<script src="js/storage.js" type="text/javascript"></script>
   <link rel="stylesheet" href="scheduler/codebase/dhtmlxscheduler_material.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,6 +17,9 @@
         <label for="semesters"></label>
         <select name="semesters" id="plusPlusSemesterOptions"></select>
       </div> 
+      <div id="plusPlusDarkModeSchedule" style="right:325px;">
+        <button id="plusPlusMoonSchedule"><i id="plusPlusDarkSymbolSchedule" class="fa fa-moon-o"></i></button>
+      </div>
       <div class="dhx_cal_prev_button">&nbsp;</div>
       <div class="dhx_cal_next_button">&nbsp;</div>
       <div class="dhx_cal_today_button"></div>
@@ -25,7 +29,7 @@
       <div class="dhx_cal_tab" name="month_tab" style="right:76px;"></div>
     </div>
       <div class="dhx_cal_header"></div>
-      <div class="dhx_cal_data"></div>  
+      <div id="plusPlusDataSchedule" class="dhx_cal_data"></div>  
   </div>
 
   <style type="text/css" media="screen">
@@ -38,5 +42,8 @@
   </style>
 
   <script src="js/schedule.js"></script>
+  <script src="js/course.js"></script>
+  <script src="js/query.js"></script>
+  <script src="js/storage.js"></script>
 </body>
 </html>

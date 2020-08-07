@@ -61,3 +61,12 @@
   background-color:rgb(60, 60, 60);
   color: white;
 }
+
+#plusPlusAddClass.disabled {
+  cursor: default;
+}
+
+#container.dark-mode, #search_area.dark-mode, #inner_header.dark-mode, #inner_body.dark-mode, .course_header.dark-mode, h2.dark-mode, #filter.dark-mode {
+  background-color:rgb(60, 60, 60);
+  color: white;
+}
