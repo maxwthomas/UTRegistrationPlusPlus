@@ -51,7 +51,7 @@ var modal_content = "<div class='modal fade' id='plusPlusModal' role='dialog'>" 
         "<div class='container'>" +
           "<div class='row' id='plusPlusRowOne'>" +
             "<div class='col'><a href='#' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusSyllabi'>Syllabi</a></div>" +
-            "<div class='col'><a href='http://utcatalyst.org/grade-distributions' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusCatalyst'>Catalyst</a></div>" +
+            "<div class='col'><a class='btn btn-primary btn-lg active' id='plusPlusCatalyst'>Catalyst</a></div>" +
             "<div class='col'><a href='https://utdirect.utexas.edu/ctl/ecis/results/search.WBX' target='_blank' class='btn btn-primary btn-lg active' id='plusPlusECIS'>eCIS</a></div>" +
           "</div>" +
           "<div class='row' id='plusPlusRowTwo'>" +
@@ -107,6 +107,24 @@ var modal_content_prereqs = "<div class='modal fade' id='plusPlusModalPrereqs' r
 "</div>" +
 "</div>";
 $("#container").append(modal_content_prereqs);
+
+// Modal for grade distribution
+var modal_content_grade_distribution = "<div class='modal fade' id='plusPlusModalGradeDistribution' role='dialog'>" +
+"<div class='modal-dialog'>" + 
+  "<div class='modal-content' id='plusPlusModalContentGradeDistribution'>" +
+
+    "<div class='modal-body' id='plusPlusModalBodyGradeDistribution'>" +
+      "<button type='button' class='close' id='plusPlusCloseGradeDistribution' data-dismiss='modal'>&times;</button>" +
+      "<p id='plusPlusNoData'></p>" +
+      "<figure class='highcharts-figure'>" +
+        "<div id='plusPlusContainerGradeDistribution'></div>" +
+      "</figure>" +
+    "</div>" +
+
+  "</div>" +
+"</div>" +
+"</div>";
+$("#container").append(modal_content_grade_distribution);
 
 const END_PATHNAME_INDEX = 38;
 const END_PATHNAME = "results/";
@@ -193,6 +211,23 @@ $(".plusPlusLonghornBtn").click(function() {
   if (course_query.sm) {
     alert(course_query.fullName + " has been accused of sexual misconduct.");
   }
+
+  // Enable grade distribution modal
+  $("#plusPlusCatalyst").click(function() {
+    var all_courses = course_query.courses;
+    var course_name_list = course_name.split(/[ ,]+/).filter(Boolean);
+    var target_field_and_number = course_name_list[0] + course_name_list[1];
+    var all_courses_target = GradeDistribution.sumDuplicateSemesters(GradeDistribution.getCourses(all_courses, target_field_and_number));
+    if (all_courses_target.length > 0) {
+      $("#plusPlusNoData").text("");
+      var distribution = new GradeDistribution(all_courses_target, prof_name);
+      Highcharts.chart("plusPlusContainerGradeDistribution", distribution.getGraphFormat());
+    } else if (all_courses_target.length == 0) {
+      $("#plusPlusNoData").text("No Data Available");
+      Highcharts.chart("plusPlusContainerGradeDistribution", GradeDistribution.getNoDataFormat());
+    }
+    $("#plusPlusModalGradeDistribution").modal();
+  });
 });
 
 // Add class to student schedule

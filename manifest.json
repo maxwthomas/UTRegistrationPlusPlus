@@ -11,9 +11,9 @@
 	},
 
 	"content_scripts": [{
-		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*/results/*"],
+		"matches": ["*://utdirect.utexas.edu/apps/registrar/course_schedule/*/results/*", "*://utdirect.utexas.edu/apps/registrar/course_schedule/*/*/"],
 		"css": ["css/bootstrap.min.css", "css/content_style.css"],
-		"js": ["js/jquery.min.js", "js/bootstrap.min.js", "js/highcharts.js", "js/query.js", "js/storage.js", "js/course.js", "js/content_script.js"]
+		"js": ["js/jquery.min.js", "js/bootstrap.min.js", "js/highcharts.js", "js/query.js", "js/storage.js", "js/course.js", "js/grade_distribution.js", "js/content_script.js"]
 	}],
 
 	"permissions": [
